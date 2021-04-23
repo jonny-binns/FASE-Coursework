@@ -1,0 +1,3 @@
+aeroplane.ads:28:24: high: "d.Lock" is not initialized in "ShutDoor"[#1]
+aeroplane.ads:29:13: warning: "d.Status" may be referenced before it has a value
+aeroplane.ads:29:13: high: "d.Status" is not initialized[#0]

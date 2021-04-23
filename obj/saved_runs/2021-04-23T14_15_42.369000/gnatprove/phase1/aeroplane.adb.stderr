@@ -1,0 +1,3 @@
+aeroplane.adb:16:04: "End OpenDoor;" expected
+aeroplane.adb:23:04: "End LockDoor;" expected
+aeroplane.adb:30:04: "End UnlockDoor;" expected

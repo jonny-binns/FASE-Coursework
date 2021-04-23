@@ -1,0 +1,1 @@
+aeroplane.ads:92:14: medium: postcondition might fail, cannot prove p.Altitude = 35000[#0]

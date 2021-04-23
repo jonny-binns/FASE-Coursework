@@ -1,0 +1,1 @@
+aeroplane.adb:47:17: medium: range check might fail (e.g. when f = FuelLevel'Last)[#0]

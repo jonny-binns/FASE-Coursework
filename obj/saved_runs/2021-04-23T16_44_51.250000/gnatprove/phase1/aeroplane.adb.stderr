@@ -1,0 +1,3 @@
+aeroplane.adb:41:28: invalid operand types for operator "&"
+aeroplane.adb:53:14: not fully conformant with declaration at aeroplane.ads:79
+aeroplane.adb:53:14: mode of "p" does not match

@@ -1,0 +1,2 @@
+aeroplane.ads:68:22: warning: unused initial value of "f"[#0]
+aeroplane.ads:92:14: medium: postcondition might fail, cannot prove p.Altitude = 35000 (e.g. when p = (CockpitDoor => (Status => open, Lock => unlocked), ExternalDoor => (Status => open, Lock => unlocked), Flight => stationary, Fuel => 0, MinimumFuel => 0, Altitude => 35001, AirSpeed => 0))[#1]

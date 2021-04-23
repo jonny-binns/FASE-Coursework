@@ -1,0 +1,1187 @@
+'2021-04-23T13:43:19.021000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:1:39: missing "Is"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T13:43:19.021000'
+'2021-04-23T13:43:42.755000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:8:20: component declaration expected
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T13:43:42.755000'
+'2021-04-23T13:43:58.288000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:1:01: spec of this package does not allow a body
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T13:43:58.288000'
+'2021-04-23T13:46:04.113000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:15:23: missing "new"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T13:46:04.113000'
+'2021-04-23T13:46:29.982000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:1:01: spec of this package does not allow a body
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T13:46:29.982000'
+'2021-04-23T13:47:45.786000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:1:01: spec of this package does not allow a body
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T13:47:45.786000'
+'2021-04-23T13:47:59.477000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:1:01: spec of this package does not allow a body
+
+    aeroplane.ads:19:23: missing ";"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T13:47:59.477000'
+'2021-04-23T13:51:28.303000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:1:14: missing body for "ShutDoor" declared at aeroplane.ads:30
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T13:51:28.303000'
+'2021-04-23T13:53:11.165000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.ads:30:24: high: "d.Lock" is not initialized in "ShutDoor"[#1]
+
+    aeroplane.ads:31:13: warning: "d.Status" may be referenced before it has a value
+
+    aeroplane.ads:31:13: high: "d.Status" is not initialized[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T13:53:11.165000'
+'2021-04-23T13:56:28.283000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:16:33: misplaced assignment symbol
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T13:56:28.283000'
+'2021-04-23T13:56:42.377000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:16:26: expected type "Door" defined at line 8
+
+    aeroplane.ads:16:26: found type "DStatus" defined at line 5
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T13:56:42.377000'
+'2021-04-23T13:57:47.749000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.ads:30:24: high: "d.Lock" is not initialized in "ShutDoor"[#1]
+
+    aeroplane.ads:31:13: warning: "d.Status" may be referenced before it has a value
+
+    aeroplane.ads:31:13: high: "d.Status" is not initialized[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T13:57:47.749000'
+'2021-04-23T14:02:50.945000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:14:26: no value supplied for component "Status"
+
+    aeroplane.ads:14:26: no value supplied for component "Lock"
+
+    aeroplane.ads:14:27: "DStatus" is not a component of type "Door" defined at line
+    8
+
+    aeroplane.ads:14:44: "DLock" is not a component of type "Door" defined at line
+    8
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:02:50.945000'
+'2021-04-23T14:03:20.093000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.ads:28:24: high: "d.Lock" is not initialized in "ShutDoor"[#1]
+
+    aeroplane.ads:29:13: warning: "d.Status" may be referenced before it has a value
+
+    aeroplane.ads:29:13: high: "d.Status" is not initialized[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:03:20.093000'
+'2021-04-23T14:08:11.552000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:6:14: not fully conformant with declaration at aeroplane.ads:28
+
+    aeroplane.adb:6:14: mode of "d" does not match
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:08:11.552000'
+'2021-04-23T14:08:23.442000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:08:23.442000'
+'2021-04-23T14:15:42.369000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:16:04: "End OpenDoor;" expected
+
+    aeroplane.adb:23:04: "End LockDoor;" expected
+
+    aeroplane.adb:30:04: "End UnlockDoor;" expected
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:15:42.369000'
+'2021-04-23T14:16:06.708000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:16:06.708000'
+'2021-04-23T14:18:40.708000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:18:40.708000'
+'2021-04-23T14:26:32.481000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:6:33: missing "Return"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:26:32.481000'
+'2021-04-23T14:26:46.406000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:6:33: missing "Return"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:26:46.406000'
+'2021-04-23T14:27:29.795000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:6:33: missing "Return"
+
+    aeroplane.adb:9:15: missing ";"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:27:29.795000'
+'2021-04-23T14:27:59.130000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:29:33: missing "return"
+
+    aeroplane.ads:30:06: declaration expected
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:27:59.130000'
+'2021-04-23T14:28:17.026000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:8:07: assignment to "In" mode parameter not allowed
+
+    aeroplane.ads:31:14: "d" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:28:17.026000'
+'2021-04-23T14:29:30.675000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:8:07: assignment to "In" mode parameter not allowed
+
+    aeroplane.ads:31:14: "d" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:29:30.675000'
+'2021-04-23T14:29:43.974000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:31:14: "d" is undefined
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:29:43.974000'
+'2021-04-23T14:30:05.452000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:30:05.452000'
+'2021-04-23T14:31:39.944000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:31:39.944000'
+'2021-04-23T14:35:07.395000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:21:19: missing ":"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:35:07.395000'
+'2021-04-23T14:35:28.141000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:21:22: component "FlightStatus" cannot be used before end of record
+    declaration
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:35:28.141000'
+'2021-04-23T14:36:39.020000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:21:22: component "FlightStatus" cannot be used before end of record
+    declaration
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:36:39.020000'
+'2021-04-23T14:38:22.078000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:38:22.078000'
+'2021-04-23T14:38:44.261000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:38:44.261000'
+'2021-04-23T14:38:52.834000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:38:52.834000'
+'2021-04-23T14:41:44.515000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:41:44.515000'
+'2021-04-23T14:46:13.314000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T14:46:13.314000'
+'2021-04-23T15:57:01.630000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:17:33: missing ".."
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T15:57:01.630000'
+'2021-04-23T15:57:09.350000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:17:31: numeric literal cannot start with point
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T15:57:09.350000'
+'2021-04-23T15:57:22.193000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T15:57:22.193000'
+'2021-04-23T16:00:25.127000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:38:43: "," should be ";"
+
+    aeroplane.adb:38:47: reserved word "In" cannot be used as identifier
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:00:25.127000'
+'2021-04-23T16:00:35.700000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:38:46: missing ":"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:00:35.700000'
+'2021-04-23T16:00:45.674000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:4:14: missing body for "SetFuel" declared at aeroplane.ads:57
+
+    aeroplane.adb:38:60: missing "is"
+
+    aeroplane.adb:40:12: expected type "FuelLevel" defined at aeroplane.ads:17
+
+    aeroplane.adb:40:12: found type "Standard.Integer"
+
+    aeroplane.ads:57:42: "," should be ";"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:00:45.674000'
+'2021-04-23T16:01:01.612000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:38:60: missing "is"
+
+    aeroplane.adb:40:12: expected type "FuelLevel" defined at aeroplane.ads:17
+
+    aeroplane.adb:40:12: found type "Standard.Integer"
+
+    aeroplane.ads:57:59: missing ";"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:01:01.612000'
+'2021-04-23T16:03:13.693000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.ads:57:22: warning: unused initial value of "f"[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:03:13.693000'
+'2021-04-23T16:05:12.302000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:05:12.302000'
+'2021-04-23T16:11:00.066000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:11:00.066000'
+'2021-04-23T16:12:11':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.ads:58:22: warning: unused initial value of "f"[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:12:11'
+'2021-04-23T16:15:33.591000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:65:10: missing "=>"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:15:33.591000'
+'2021-04-23T16:15:41.792000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:46:18: prefix of "Last" attribute must be a type
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:15:41.792000'
+'2021-04-23T16:16:04.278000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.adb:47:17: medium: range check might fail (e.g. when f = FuelLevel''Last)[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:16:04.278000'
+'2021-04-23T16:16:19.916000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:16:19.916000'
+'2021-04-23T16:21:01.390000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:4:14: missing body for "TakeOff" declared at aeroplane.ads:69
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:21:01.390000'
+'2021-04-23T16:21:22.417000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:21:22.417000'
+'2021-04-23T16:44:18.653000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:41:30: "d" is undefined
+
+    aeroplane.adb:53:14: not fully conformant with declaration at aeroplane.ads:79
+
+    aeroplane.adb:53:14: mode of "p" does not match
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:44:18.653000'
+'2021-04-23T16:44:51.250000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:41:28: invalid operand types for operator "&"
+
+    aeroplane.adb:53:14: not fully conformant with declaration at aeroplane.ads:79
+
+    aeroplane.adb:53:14: mode of "p" does not match
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:44:51.250000'
+'2021-04-23T16:45:15.588000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:53:14: not fully conformant with declaration at aeroplane.ads:79
+
+    aeroplane.adb:53:14: mode of "p" does not match
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:45:15.588000'
+'2021-04-23T16:45:31.867000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.ads:79:28: warning: "p" is not modified, could be IN[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:45:31.867000'
+'2021-04-23T16:45:46.991000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:45:46.991000'
+'2021-04-23T16:57:09.506000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:4:14: missing body for "MaintainNormalFlight" declared at aeroplane.ads:84
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T16:57:09.506000'
+'2021-04-23T17:14:15.709000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:57:31: missing "Loop"
+
+    aeroplane.adb:59:06: missing "End If;" for "If" at line 57
+
+    aeroplane.adb:59:15: missing ";"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:14:15.709000'
+'2021-04-23T17:14:26.580000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:4:14: missing body for "TakeOff" declared at aeroplane.ads:79
+
+    aeroplane.adb:59:15: missing ";"
+
+    aeroplane.ads:34:18: component "Altitude" cannot be used before end of record
+    declaration
+
+    aeroplane.ads:35:18: component "AirSpeed" cannot be used before end of record
+    declaration
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:14:26.580000'
+'2021-04-23T17:14:39.588000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:4:14: missing body for "TakeOff" declared at aeroplane.ads:79
+
+    aeroplane.ads:34:18: component "Altitude" cannot be used before end of record
+    declaration
+
+    aeroplane.ads:35:18: component "AirSpeed" cannot be used before end of record
+    declaration
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:14:39.588000'
+'2021-04-23T17:14:53.824000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:34:18: component "Altitude" cannot be used before end of record
+    declaration
+
+    aeroplane.ads:35:18: component "AirSpeed" cannot be used before end of record
+    declaration
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:14:53.824000'
+'2021-04-23T17:16:40.875000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:34:18: component "Altitude" cannot be used before end of record
+    declaration
+
+    aeroplane.ads:35:18: component "AirSpeed" cannot be used before end of record
+    declaration
+
+    aeroplane.ads:68:61: missing ";"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:16:40.875000'
+'2021-04-23T17:16:55.227000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:68:61: missing ";"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:16:55.227000'
+'2021-04-23T17:17:05.987000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.ads:69:09: missing "=>"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:17:05.987000'
+'2021-04-23T17:17:15.487000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.ads:68:22: warning: unused initial value of "f"[#0]
+
+    aeroplane.ads:92:14: medium: postcondition might fail, cannot prove p.Altitude
+    = 35000 (e.g. when p = (CockpitDoor => (Status => open, Lock => unlocked), ExternalDoor
+    => (Status => open, Lock => unlocked), Flight => stationary, Fuel => 0, MinimumFuel
+    => 0, Altitude => 35001, AirSpeed => 0))[#1]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:17:15.487000'
+'2021-04-23T17:17:44.192000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:38:14: not fully conformant with declaration at aeroplane.ads:68
+
+    aeroplane.adb:38:14: mode of "f" does not match
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:17:44.192000'
+'2021-04-23T17:17:53.711000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.ads:92:14: medium: postcondition might fail, cannot prove p.Altitude
+    = 35000[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:17:53.711000'
+'2021-04-23T17:19:48.484000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.ads:92:37: medium: postcondition might fail, cannot prove p.AirSpeed
+    = 933 (e.g. when p = (CockpitDoor => (Status => open, Lock => unlocked), ExternalDoor
+    => (Status => open, Lock => unlocked), Flight => stationary, Fuel => 0, MinimumFuel
+    => 0, Altitude => 35000, AirSpeed => 0))[#0]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:19:48.484000'
+'2021-04-23T17:30:30.669000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:60:38: no selector "Altidude" for type "Aeroplane" defined at aeroplane.ads:27
+
+    aeroplane.adb:60:39: possible misspelling of "Altitude"
+
+    aeroplane.adb:66:38: no selector "Altidude" for type "Aeroplane" defined at aeroplane.ads:27
+
+    aeroplane.adb:66:39: possible misspelling of "Altitude"
+
+    aeroplane.adb:74:36: invalid operand types for operator "&"
+
+    aeroplane.adb:80:36: invalid operand types for operator "&"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:30:30.669000'
+'2021-04-23T17:30:52.208000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:60:38: no selector "Altidude" for type "Aeroplane" defined at aeroplane.ads:27
+
+    aeroplane.adb:60:39: possible misspelling of "Altitude"
+
+    aeroplane.adb:66:38: no selector "Altidude" for type "Aeroplane" defined at aeroplane.ads:27
+
+    aeroplane.adb:66:39: possible misspelling of "Altitude"
+
+    aeroplane.adb:74:36: invalid operand types for operator "&"
+
+    aeroplane.adb:80:36: invalid operand types for operator "&"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:30:52.208000'
+'2021-04-23T17:31:14.027000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    aeroplane.adb:60:38: no selector "Altidude" for type "Aeroplane" defined at aeroplane.ads:27
+
+    aeroplane.adb:60:39: possible misspelling of "Altitude"
+
+    aeroplane.adb:66:38: no selector "Altidude" for type "Aeroplane" defined at aeroplane.ads:27
+
+    aeroplane.adb:66:39: possible misspelling of "Altitude"
+
+    gnatprove: error during generation of Global contracts
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:31:14.027000'
+'2021-04-23T17:31:46.922000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-04-23T17:31:46.922000'

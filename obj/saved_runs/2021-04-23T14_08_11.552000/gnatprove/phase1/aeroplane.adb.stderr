@@ -1,0 +1,2 @@
+aeroplane.adb:6:14: not fully conformant with declaration at aeroplane.ads:28
+aeroplane.adb:6:14: mode of "d" does not match

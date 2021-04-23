@@ -1,0 +1,6 @@
+aeroplane.adb:60:38: no selector "Altidude" for type "Aeroplane" defined at aeroplane.ads:27
+aeroplane.adb:60:39: possible misspelling of "Altitude"
+aeroplane.adb:66:38: no selector "Altidude" for type "Aeroplane" defined at aeroplane.ads:27
+aeroplane.adb:66:39: possible misspelling of "Altitude"
+aeroplane.adb:74:36: invalid operand types for operator "&"
+aeroplane.adb:80:36: invalid operand types for operator "&"

@@ -1,0 +1,5 @@
+aeroplane.adb:4:14: missing body for "SetFuel" declared at aeroplane.ads:57
+aeroplane.adb:38:60: missing "is"
+aeroplane.adb:40:12: expected type "FuelLevel" defined at aeroplane.ads:17
+aeroplane.adb:40:12: found type "Standard.Integer"
+aeroplane.ads:57:42: "," should be ";"

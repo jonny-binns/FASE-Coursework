@@ -1,0 +1,2 @@
+aeroplane.ads:16:26: expected type "Door" defined at line 8
+aeroplane.ads:16:26: found type "DStatus" defined at line 5

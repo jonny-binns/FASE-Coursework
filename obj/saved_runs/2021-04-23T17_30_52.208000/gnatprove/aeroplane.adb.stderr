@@ -1,0 +1,1 @@
+aeroplane.ads:92:37: medium: postcondition might fail, cannot prove p.AirSpeed = 933 (e.g. when p = (CockpitDoor => (Status => open, Lock => unlocked), ExternalDoor => (Status => open, Lock => unlocked), Flight => stationary, Fuel => 0, MinimumFuel => 0, Altitude => 35000, AirSpeed => 0))[#0]

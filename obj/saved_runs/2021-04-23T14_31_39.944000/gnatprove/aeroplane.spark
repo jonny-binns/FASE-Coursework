@@ -1,0 +1,454 @@
+{
+  "spark": [
+    {
+      "name": "Aeroplane",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.ShutDoor",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 29
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.OpenDoor",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 38
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.LockDoor",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 48
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.UnlockDoor",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 57
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "session_map": {
+    " 1": "C:\\Users\\Jonny\\Documents\\GitHub\\FASE-Coursework\\obj\\gnatprove\\aeroplane__shutdoor",
+    " 2": "C:\\Users\\Jonny\\Documents\\GitHub\\FASE-Coursework\\obj\\gnatprove\\aeroplane__opendoor",
+    " 3": "C:\\Users\\Jonny\\Documents\\GitHub\\FASE-Coursework\\obj\\gnatprove\\aeroplane__lockdoor",
+    " 4": "C:\\Users\\Jonny\\Documents\\GitHub\\FASE-Coursework\\obj\\gnatprove\\aeroplane__unlockdoor"
+  },
+  "proof": [
+    {
+      "file": "aeroplane.ads",
+      "line": 31,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.ShutDoor",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 29
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.ads",
+      "check_line": 31,
+      "check_col": 14,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.ads",
+      "line": 40,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.OpenDoor",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 38
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "aeroplane.ads",
+      "check_line": 40,
+      "check_col": 14,
+      "session_dir": 2,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.ads",
+      "line": 50,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.LockDoor",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 48
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "aeroplane.ads",
+      "check_line": 50,
+      "check_col": 14,
+      "session_dir": 3,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.ads",
+      "line": 59,
+      "col": 13,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.UnlockDoor",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 57
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "aeroplane.ads",
+      "check_line": 59,
+      "check_col": 13,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.LockDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 48
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Aeroplane.LockDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 48
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Aeroplane.OpenDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 38
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.OpenDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 38
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Aeroplane.OpenDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 38
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Aeroplane",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Aeroplane.UnlockDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 57
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.UnlockDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 57
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Aeroplane.UnlockDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 57
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Aeroplane.ShutDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.ShutDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Aeroplane.ShutDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 29
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Aeroplane.LockDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 48
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "codepeer results": 4.76999994134530E-05,
+    "init_why_sections": 5.44200011063367E-04,
+    "globals/properties (advanced)": 5.19399996846914E-04,
+    "gnatwhy3.run_vcs": 0.00000000000000E+00,
+    "flow analysis": 2.85469996742904E-03,
+    "marking": 2.92399985482916E-04,
+    "translation of standard": 3.90629982575774E-03,
+    "gnatwhy3.register_vcs": 0.00000000000000E+00,
+    "globals (basic)": 2.82499997410923E-04,
+    "gnatwhy3.schedule_vcs": 0.00000000000000E+00,
+    "gnatwhy3.save_session": 0.00000000000000E+00,
+    "gnatwhy3.init": 8.75000000000000E-01
+  }
+}

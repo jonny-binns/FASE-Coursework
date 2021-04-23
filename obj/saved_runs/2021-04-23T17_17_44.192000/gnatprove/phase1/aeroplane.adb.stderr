@@ -1,0 +1,2 @@
+aeroplane.adb:38:14: not fully conformant with declaration at aeroplane.ads:68
+aeroplane.adb:38:14: mode of "f" does not match

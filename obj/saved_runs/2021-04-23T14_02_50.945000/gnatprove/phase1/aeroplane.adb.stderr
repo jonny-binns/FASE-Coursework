@@ -1,0 +1,4 @@
+aeroplane.ads:14:26: no value supplied for component "Status"
+aeroplane.ads:14:26: no value supplied for component "Lock"
+aeroplane.ads:14:27: "DStatus" is not a component of type "Door" defined at line 8
+aeroplane.ads:14:44: "DLock" is not a component of type "Door" defined at line 8

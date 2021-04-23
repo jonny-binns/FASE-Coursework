@@ -1,0 +1,3 @@
+aeroplane.adb:57:31: missing "Loop"
+aeroplane.adb:59:06: missing "End If;" for "If" at line 57
+aeroplane.adb:59:15: missing ";"

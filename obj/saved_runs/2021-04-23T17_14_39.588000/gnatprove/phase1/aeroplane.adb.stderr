@@ -1,0 +1,3 @@
+aeroplane.adb:4:14: missing body for "TakeOff" declared at aeroplane.ads:79
+aeroplane.ads:34:18: component "Altitude" cannot be used before end of record declaration
+aeroplane.ads:35:18: component "AirSpeed" cannot be used before end of record declaration

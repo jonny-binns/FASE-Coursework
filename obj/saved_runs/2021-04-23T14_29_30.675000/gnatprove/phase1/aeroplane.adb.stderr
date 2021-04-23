@@ -1,0 +1,2 @@
+aeroplane.adb:8:07: assignment to "In" mode parameter not allowed
+aeroplane.ads:31:14: "d" is undefined
