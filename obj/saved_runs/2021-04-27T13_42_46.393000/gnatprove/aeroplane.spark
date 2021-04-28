@@ -1,0 +1,2299 @@
+{
+  "spark": [
+    {
+      "name": "Aeroplane",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.SetTowMode",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 82
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.SetTakeOff",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 93
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.FlightStatus",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 102
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.SystemCheck",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 118
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.FlightSim",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 125
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "session_map": {
+    " 1": "C:\\Users\\Jonny\\Documents\\GitHub\\FASE-Coursework\\obj\\gnatprove\\aeroplane__settowmode",
+    " 2": "C:\\Users\\Jonny\\Documents\\GitHub\\FASE-Coursework\\obj\\gnatprove\\aeroplane__settakeoff",
+    " 3": "C:\\Users\\Jonny\\Documents\\GitHub\\FASE-Coursework\\obj\\gnatprove\\aeroplane__flightsim",
+    " 4": "C:\\Users\\Jonny\\Documents\\GitHub\\FASE-Coursework\\obj\\gnatprove\\aeroplane__flightstatus"
+  },
+  "proof": [
+    {
+      "file": "aeroplane.ads",
+      "line": 86,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.SetTowMode",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 82
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "aeroplane.ads",
+      "check_line": 86,
+      "check_col": 14,
+      "session_dir": 1,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.ads",
+      "line": 97,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.SetTakeOff",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 93
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 48,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.ads",
+      "check_line": 97,
+      "check_col": 14,
+      "session_dir": 2,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 398,
+      "col": 61,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightSim",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 125
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 104,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 398,
+      "check_col": 61,
+      "session_dir": 3,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 398,
+      "col": 83,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightSim",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 125
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 137,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 398,
+      "check_col": 83,
+      "session_dir": 3,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 423,
+      "col": 7,
+      "rule": "VC_PRECONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightSim",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 125
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5,
+              "time": 1.10000000000000E-01
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 1.90000000000000E-01
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 1.90000000000000E-01
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 1.60000000000000E-01
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 19,
+              "time": 1.60000000000000E-01
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 423,
+      "check_col": 7,
+      "session_dir": 3,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 5,
+          "max_steps": 1,
+          "max_time": 1.89999997615814E-01
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 434,
+      "col": 7,
+      "rule": "VC_PRECONDITION",
+      "severity": "medium",
+      "entity": {
+        "name": "Aeroplane.FlightSim",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 125
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 700,
+              "time": 2.20000000000000E-01
+            },
+            "CVC4_CE": {
+              "result": "Unknown (unknown)",
+              "steps": 744,
+              "time": 2.20000000000000E-01
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 705,
+              "time": 2.50000000000000E-01
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 694,
+              "time": 3.00000000000000E-01
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 694,
+              "time": 2.50000000000000E-01
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 694,
+              "time": 2.80000000000000E-01
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Unknown (unknown)",
+              "steps": 694,
+              "time": 2.50000000000000E-01
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 434,
+      "check_col": 7,
+      "cntexmp": {
+        "aeroplane.adb": {
+          "previous": {
+          },
+          "current": {
+            "397": [
+              {
+                "name": "p",
+                "value": "(CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel => (Level => 0, Light => off), MinimumFuel => 75, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => on, Light => off))",
+                "kind": "variable"
+              }
+            ],
+            "398": [
+              {
+                "name": "p",
+                "value": "(CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel => (Level => 0, Light => off), MinimumFuel => 75, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => on, Light => off))",
+                "kind": "variable"
+              }
+            ],
+            "402": [
+              {
+                "name": "p",
+                "value": "(CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel => (Level => 80, Light => off), MinimumFuel => 75, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => on, Light => off))",
+                "kind": "variable"
+              }
+            ],
+            "408": [
+              {
+                "name": "p",
+                "value": "(CockpitDoor => (Status => closed, Lock => unlocked, Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel => (Level => 80, Light => off), MinimumFuel => 75, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => on, Light => off))",
+                "kind": "variable"
+              }
+            ],
+            "409": [
+              {
+                "name": "p",
+                "value": "(CockpitDoor => (Status => closed, Lock => locked, Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel => (Level => 80, Light => off), MinimumFuel => 75, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => on, Light => off))",
+                "kind": "variable"
+              }
+            ],
+            "410": [
+              {
+                "name": "p",
+                "value": "(CockpitDoor => (Status => closed, Lock => locked, Light => off), ExternalDoor => (Status => closed, Lock => unlocked, Light => off), Flight => stationary, Fuel => (Level => 80, Light => off), MinimumFuel => 75, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => on, Light => off))",
+                "kind": "variable"
+              }
+            ],
+            "411": [
+              {
+                "name": "p",
+                "value": "(CockpitDoor => (Status => closed, Lock => locked, Light => off), ExternalDoor => (Status => closed, Lock => unlocked, Light => off), Flight => stationary, Fuel => (Level => 80, Light => off), MinimumFuel => 75, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => on, Light => off))",
+                "kind": "variable"
+              }
+            ],
+            "416": [
+              {
+                "name": "p",
+                "value": "(CockpitDoor => (Status => closed, Lock => locked, Light => off), ExternalDoor => (Status => closed, Lock => locked, Light => off), Flight => stationary, Fuel => (Level => 80, Light => off), MinimumFuel => 75, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => on, Light => off))",
+                "kind": "variable"
+              }
+            ],
+            "422": [
+              {
+                "name": "p",
+                "value": "(CockpitDoor => (Status => closed, Lock => locked, Light => off), ExternalDoor => (Status => closed, Lock => locked, Light => off), Flight => stationary, Fuel => (Level => 80, Light => off), MinimumFuel => 75, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => off, Light => off))",
+                "kind": "variable"
+              }
+            ],
+            "423": [
+              {
+                "name": "p",
+                "value": "(CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off), Flight => tow, Fuel => (Level => 0, Light => off), MinimumFuel => 1, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => on, Light => off))",
+                "kind": "variable"
+              }
+            ],
+            "426": [
+              {
+                "name": "p",
+                "value": "(CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off), Flight => tow, Fuel => (Level => 0, Light => off), MinimumFuel => 1, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => on, Light => off))",
+                "kind": "variable"
+              }
+            ],
+            "434": [
+              {
+                "name": "p",
+                "value": "(CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off), Flight => tow, Fuel => (Level => 0, Light => off), MinimumFuel => 1, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => on, Light => off))",
+                "kind": "variable"
+              }
+            ]
+          }
+        },
+        "aeroplane.ads": {
+          "previous": {
+          },
+          "current": {
+            "125": [
+              {
+                "name": "p",
+                "value": "(CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel => (Level => 0, Light => off), MinimumFuel => 50, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => on, Light => off))",
+                "kind": "variable"
+              }
+            ]
+          }
+        }
+      },
+      "msg_id": 0,
+      "session_dir": 3,
+      "how_proved": "prover"
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 128,
+      "col": 33,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1093,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 128,
+      "check_col": 33,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 134,
+      "col": 36,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1219,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 134,
+      "check_col": 36,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 134,
+      "col": 66,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1343,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 134,
+      "check_col": 66,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 134,
+      "col": 76,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 1830,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 134,
+      "check_col": 76,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 134,
+      "col": 103,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 2087,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 134,
+      "check_col": 103,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 134,
+      "col": 131,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 2417,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 134,
+      "check_col": 131,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 140,
+      "col": 37,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 22201,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 140,
+      "check_col": 37,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 206,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 140,
+      "col": 68,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 21814,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 140,
+      "check_col": 68,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 195,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 140,
+      "col": 78,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 22410,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 140,
+      "check_col": 78,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 212,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 140,
+      "col": 106,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 23009,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 140,
+      "check_col": 106,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 229,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 140,
+      "col": 134,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 40730,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 140,
+      "check_col": 134,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 736,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 146,
+      "col": 31,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 2488,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 146,
+      "check_col": 31,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 146,
+      "col": 52,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 4202,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 146,
+      "check_col": 52,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 146,
+      "col": 81,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5958,
+              "time": 0
+            }
+          },
+          "transformations": {
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 146,
+      "check_col": 81,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 152,
+      "col": 32,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 2897,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 152,
+      "check_col": 32,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 152,
+      "col": 60,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 4806,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 152,
+      "check_col": 60,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 152,
+      "col": 91,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 11056,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 152,
+      "check_col": 91,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 158,
+      "col": 33,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 3342,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 158,
+      "check_col": 33,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 158,
+      "col": 58,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 5460,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 158,
+      "check_col": 58,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 158,
+      "col": 91,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 10886,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 158,
+      "check_col": 91,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 164,
+      "col": 36,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 3830,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 164,
+      "check_col": 36,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 164,
+      "col": 67,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 6102,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 164,
+      "check_col": 67,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 164,
+      "col": 95,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 23190,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 164,
+      "check_col": 95,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 235,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 170,
+      "col": 30,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 4220,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 170,
+      "check_col": 30,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 170,
+      "col": 54,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 6879,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 170,
+      "check_col": 54,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.adb",
+      "line": 170,
+      "col": 82,
+      "rule": "VC_RANGE_CHECK",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 13803,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.adb",
+      "check_line": 170,
+      "check_col": 82,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 1,
+          "max_steps": 1,
+          "max_time": 0.00000000000000E+00
+        }
+      }
+    },
+    {
+      "file": "aeroplane.ads",
+      "line": 103,
+      "col": 14,
+      "rule": "VC_POSTCONDITION",
+      "severity": "info",
+      "entity": {
+        "name": "Aeroplane.FlightStatus",
+        "sloc": [
+          {
+            "file": "aeroplane.ads",
+            "line": 102
+          }
+        ]
+      },
+      "check_tree": [
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 93307,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 126134,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 105928,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 120909,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 59272,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 64654,
+              "time": 1.27000000000000E+00
+            }
+          },
+          "transformations": {
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 74900,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 73906,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 90235,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 96859,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        },
+        {
+          "proof_attempts": {
+            "CVC4": {
+              "result": "Valid",
+              "steps": 92475,
+              "time": 0
+            }
+          },
+          "transformations": {
+            "trivial_true": [
+            ]
+          }
+        }
+      ],
+      "check_file": "aeroplane.ads",
+      "check_line": 103,
+      "check_col": 14,
+      "session_dir": 4,
+      "how_proved": "prover",
+      "stats": {
+        "CVC4": {
+          "count": 11,
+          "max_steps": 3176,
+          "max_time": 1.26999998092651E+00
+        }
+      }
+    }
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Aeroplane.FlightStatus",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 102
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Aeroplane.SetTakeOff",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 93
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Aeroplane",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.SetTakeOff",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 93
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Aeroplane.SetTakeOff",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 93
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.FlightStatus",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 102
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.SystemCheck",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Aeroplane.FlightStatus",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 102
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.FlightStatus",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 102
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Aeroplane.FlightStatus",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 102
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Aeroplane.SystemCheck",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 118
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.FlightStatus",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 102
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.SetTakeOff",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 93
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.SetTowMode",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 82
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.FlightSim",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 125
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Aeroplane.SetTowMode",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 82
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.SetTowMode",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 82
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_AORTE",
+        "arg": {
+          "name": "Aeroplane.SetTowMode",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 82
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_POST",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_AORTE",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_POST",
+        "arg": {
+          "name": "Aeroplane.FlightStatus",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 102
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.FlightStatus",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 102
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "gnatwhy3.transformations.inline_trivial": 2.03125000000000E-01,
+    "codepeer results": 4.01710020378232E-03,
+    "init_why_sections": 6.06700021307915E-04,
+    "gnatwhy3.transformations.detect_polymorphism": 1.56250000000000E-02,
+    "globals/properties (advanced)": 1.94319002330303E-02,
+    "gnatwhy3.transformations.eliminate_literal": 4.68750000000000E-02,
+    "gnatwhy3.run_vcs": 4.68750000000000E-01,
+    "gnatwhy3.transformations.eliminate_algebraic_if_poly": 3.12500000000000E-02,
+    "gnatwhy3.transformations.eliminate_definition_if_poly": 3.12500000000000E-02,
+    "flow analysis": 1.22237898409367E-01,
+    "gnatwhy3.transformations.simplify_formula": 3.12500000000000E-02,
+    "marking": 5.80599997192621E-03,
+    "translation of standard": 3.87299992144108E-03,
+    "gnatwhy3.register_vcs": 3.12500000000000E-02,
+    "gnatwhy3.transformations.eliminate_epsilon": 1.56250000000000E-02,
+    "globals (basic)": 1.39207001775503E-02,
+    "gnatwhy3.schedule_vcs": 3.12500000000000E-02,
+    "gnatwhy3.transformations.prepare_for_counterexmp": 1.56250000000000E-02,
+    "gnatwhy3.save_session": 6.25000000000000E-02,
+    "gnatwhy3.transformations.eliminate_inductive": 1.56250000000000E-02,
+    "gnatwhy3.transformations.encoding_smt_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.transformations.eliminate_unused_hypo": 1.71875000000000E-01,
+    "gnatwhy3.transformations.eliminate_builtin": 1.56250000000000E-02,
+    "gnatwhy3.transformations.discriminate_if_poly": 0.00000000000000E+00,
+    "gnatwhy3.init": 2.01562500000000E+00
+  }
+}

@@ -1,0 +1,4 @@
+aeroplane.adb:4:01: spec of this package does not allow a body
+aeroplane.ads:4:52: missing ";"
+aeroplane.ads:68:64: "Light" is not a component of type "Door" defined at line 10
+aeroplane.ads:69:65: "Light" is not a component of type "Door" defined at line 10

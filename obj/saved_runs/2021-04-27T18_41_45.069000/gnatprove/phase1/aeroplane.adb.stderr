@@ -1,0 +1,3 @@
+aeroplane.ads:119:50: invalid operand types for operator ">"
+aeroplane.ads:119:50: left operand has type "FuelLevelMeasure" defined at line 20
+aeroplane.ads:119:50: right operand has type "AltitudeRange" defined at line 37

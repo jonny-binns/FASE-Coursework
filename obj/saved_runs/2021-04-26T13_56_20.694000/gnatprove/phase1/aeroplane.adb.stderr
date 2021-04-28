@@ -1,0 +1,2 @@
+aeroplane.adb:166:07: assignment to "In" mode parameter not allowed
+aeroplane.adb:167:20: actual for "p" must be a variable

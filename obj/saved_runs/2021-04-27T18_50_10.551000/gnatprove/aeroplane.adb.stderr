@@ -1,0 +1,2 @@
+aeroplane.adb:233:95: low: range check might fail [possible explanation: subprogram at aeroplane.ads:171 should mention p in a precondition][#1]
+aeroplane.ads:118:124: warning: "f" is not modified, could be IN[#0]

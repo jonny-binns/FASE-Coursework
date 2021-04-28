@@ -1,0 +1,57 @@
+{
+  "spark": [
+    {
+      "name": "Aeroplane",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.FlightStatus",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 81
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "session_map": {
+  },
+  "proof": [
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.FlightStatus",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 81
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "codepeer results": 9.12999967113137E-05,
+    "init_why_sections": 5.93299977481365E-04,
+    "globals/properties (advanced)": 1.94157995283604E-02,
+    "flow analysis": 2.31276005506516E-02,
+    "marking": 5.25210006162524E-03,
+    "translation of standard": 3.79480002447963E-03,
+    "globals (basic)": 1.55565999448299E-02
+  }
+}

@@ -1,0 +1,2 @@
+aeroplane.adb:160:14: not fully conformant with declaration at aeroplane.ads:86
+aeroplane.adb:160:14: mode of "p" does not match

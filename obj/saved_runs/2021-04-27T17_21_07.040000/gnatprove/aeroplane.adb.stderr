@@ -1,0 +1,7 @@
+aeroplane.adb:67:130: warning: formal parameter "a" is read but never assigned
+aeroplane.adb:70:10: high: "a" is not initialized[#1]
+aeroplane.adb:73:74: high: "a" is not initialized[#2]
+aeroplane.adb:73:113: medium: "lg" might not be initialized[#4]
+aeroplane.adb:219:95: low: range check might fail [possible explanation: subprogram at aeroplane.ads:164 should mention p in a precondition][#5]
+aeroplane.ads:129:131: high: "a" is not initialized in "SetTakeOff"[#0]
+aeroplane.ads:129:154: medium: "lg" might not be initialized in "SetTakeOff"[#3]

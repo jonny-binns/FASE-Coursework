@@ -1,0 +1,2 @@
+main.adb:6:13: "Flight" not declared in "Aeroplane"
+main.adb:8:22: "Flight" not declared in "Aeroplane"

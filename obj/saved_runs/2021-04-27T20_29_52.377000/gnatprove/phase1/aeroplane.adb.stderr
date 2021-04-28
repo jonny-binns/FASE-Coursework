@@ -1,0 +1,2 @@
+aeroplane.adb:113:100: ";" should be "Is"
+aeroplane.adb:120:04: "End SetTakeOff;" expected

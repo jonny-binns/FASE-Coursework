@@ -1,0 +1,3 @@
+main.adb:9:04: missing body for "SystemTest"
+main.adb:17:22: procedure or entry name expected
+main.adb:23:14: "SystemTest" conflicts with declaration at line 9

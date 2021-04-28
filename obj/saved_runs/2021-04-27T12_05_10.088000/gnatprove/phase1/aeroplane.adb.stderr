@@ -1,0 +1,3 @@
+aeroplane.ads:108:27: invalid operand types for operator "="
+aeroplane.ads:108:27: left operand has type "AirSpeedRange" defined at line 28
+aeroplane.ads:108:27: right operand has type "ASpeed" defined at line 30

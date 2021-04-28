@@ -1,0 +1,2 @@
+aeroplane.adb:4:14: missing body for "CloseDoor" declared at aeroplane.ads:86
+aeroplane.adb:16:14: "CloseDoor" conflicts with declaration at aeroplane.ads:86

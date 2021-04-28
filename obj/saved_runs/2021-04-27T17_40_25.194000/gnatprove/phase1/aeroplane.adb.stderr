@@ -1,0 +1,8 @@
+aeroplane.adb:65:37: invalid operand types for operator "&"
+aeroplane.adb:65:64: operator for type "Standard.Wide_Wide_String" is not directly visible
+aeroplane.adb:65:64: add with_clause and use_clause for "System"
+aeroplane.adb:65:87: operator for type "Standard.Wide_Wide_String" is not directly visible
+aeroplane.adb:65:87: add with_clause and use_clause for "System"
+aeroplane.ads:118:13: expected type "Standard.Boolean"
+aeroplane.ads:118:13: found type "FlightStage" defined at line 17
+aeroplane.ads:118:18: missing ";"

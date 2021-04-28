@@ -1,0 +1,6 @@
+aeroplane.adb:14:10: assignment to "In" mode parameter not allowed
+aeroplane.adb:18:10: assignment to "In" mode parameter not allowed
+aeroplane.adb:23:10: assignment to "In" mode parameter not allowed
+aeroplane.adb:25:10: assignment to "In" mode parameter not allowed
+aeroplane.adb:27:10: assignment to "In" mode parameter not allowed
+aeroplane.adb:29:10: assignment to "In" mode parameter not allowed

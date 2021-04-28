@@ -1,0 +1,3 @@
+aeroplane.adb:157:134: low: range check might fail [possible explanation: subprogram at aeroplane.ads:153 should mention p in a precondition][#0]
+aeroplane.adb:169:91: low: range check might fail [possible explanation: subprogram at aeroplane.ads:153 should mention p in a precondition][#1]
+aeroplane.adb:187:82: low: range check might fail [possible explanation: subprogram at aeroplane.ads:153 should mention p in a precondition][#2]

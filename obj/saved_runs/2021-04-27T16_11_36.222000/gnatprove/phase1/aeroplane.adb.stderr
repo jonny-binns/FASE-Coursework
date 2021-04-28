@@ -1,0 +1,4 @@
+aeroplane.adb:9:55: "," should be ";"
+aeroplane.ads:81:55: "," should be ";"
+aeroplane.ads:82:19: "fmin" is undefined
+aeroplane.ads:82:32: "flevel" is undefined (more references follow)

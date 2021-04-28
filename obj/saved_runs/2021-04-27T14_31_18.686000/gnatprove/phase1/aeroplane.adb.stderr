@@ -1,0 +1,2 @@
+aeroplane.adb:451:32: invalid operand types for operator "&"
+aeroplane.adb:454:35: missing ";"

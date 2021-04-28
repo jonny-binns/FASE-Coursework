@@ -1,0 +1,2 @@
+aeroplane.adb:4:14: missing body for "EngineOff" declared at aeroplane.ads:106
+aeroplane.adb:4:14: missing body for "EngineOn" declared at aeroplane.ads:111

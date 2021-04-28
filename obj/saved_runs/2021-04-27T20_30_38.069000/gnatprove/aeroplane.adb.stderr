@@ -1,0 +1,2 @@
+aeroplane.adb:257:95: low: range check might fail [possible explanation: subprogram at aeroplane.ads:165 should mention p in a precondition][#0]
+aeroplane.ads:157:14: medium: postcondition might fail, cannot prove fmode = landing (e.g. when fmode = takeOff)[#1]

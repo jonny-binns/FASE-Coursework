@@ -1,0 +1,29 @@
+Summary of SPARK analysis
+=========================
+
+--------------------------------------------------------------------------------------------
+SPARK Analysis results        Total      Flow   CodePeer      Provers   Justified   Unproved
+--------------------------------------------------------------------------------------------
+Data Dependencies                 .         .          .            .           .          .
+Flow Dependencies                 .         .          .            .           .          .
+Initialization                    .         .          .            .           .          .
+Non-Aliasing                      .         .          .            .           .          .
+Run-time Checks                  26         .          .    26 (CVC4)           .          .
+Assertions                        .         .          .            .           .          .
+Functional Contracts              .         .          .            .           .          .
+LSP Verification                  .         .          .            .           .          .
+Termination                       .         .          .            .           .          .
+Concurrency                       .         .          .            .           .          .
+--------------------------------------------------------------------------------------------
+Total                            26         .          .    26 (100%)           .          .
+
+
+max steps used for successful proof: 736
+
+Analyzed 2 units
+in unit aeroplane, 3 subprograms and packages out of 3 analyzed
+  Aeroplane at aeroplane.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Aeroplane.FlightStatus at aeroplane.ads:82 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (26 checks)
+  Aeroplane.SystemCheck at aeroplane.ads:87 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+in unit main, 0 subprograms and packages out of 1 analyzed
+  Main at main.adb:5 skipped

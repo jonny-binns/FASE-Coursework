@@ -1,0 +1,3 @@
+aeroplane.adb:4:14: missing body for "setFuelLevel" declared at aeroplane.ads:81
+aeroplane.ads:81:55: "," should be ";"
+aeroplane.ads:82:19: "fm" is undefined

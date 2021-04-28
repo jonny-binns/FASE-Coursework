@@ -1,0 +1,2 @@
+main.adb:12:19: "Str" is undefined (more references follow)
+main.adb:12:23: "Last" is undefined

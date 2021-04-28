@@ -1,0 +1,38 @@
+Summary of SPARK analysis
+=========================
+
+---------------------------------------------------------------------------------------------
+SPARK Analysis results        Total       Flow   CodePeer      Provers   Justified   Unproved
+---------------------------------------------------------------------------------------------
+Data Dependencies                 .          .          .            .           .          .
+Flow Dependencies                 .          .          .            .           .          .
+Initialization                    5          5          .            .           .          .
+Non-Aliasing                      .          .          .            .           .          .
+Run-time Checks                  34          .          .    31 (CVC4)           .          3
+Assertions                        .          .          .            .           .          .
+Functional Contracts             10          .          .    10 (CVC4)           .          .
+LSP Verification                  .          .          .            .           .          .
+Termination                       .          .          .            .           .          .
+Concurrency                       .          .          .            .           .          .
+---------------------------------------------------------------------------------------------
+Total                            49    5 (10%)          .     41 (84%)           .     3 (6%)
+
+
+max steps used for successful proof: 3176
+
+Analyzed 2 units
+in unit aeroplane, 12 subprograms and packages out of 12 analyzed
+  Aeroplane at aeroplane.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Aeroplane.CloseDoor at aeroplane.ads:86 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Aeroplane.FlightSim at aeroplane.ads:190 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Aeroplane.FlightStatus at aeroplane.ads:167 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 24 checks out of 27 proved
+  Aeroplane.LockDoor at aeroplane.ads:96 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Aeroplane.OpenDoor at aeroplane.ads:91 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+  Aeroplane.SetFuelLevel at aeroplane.ads:81 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (3 checks)
+  Aeroplane.SetNormal at aeroplane.ads:144 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Aeroplane.SetTakeOff at aeroplane.ads:126 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Aeroplane.SetTowMode at aeroplane.ads:107 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Aeroplane.SystemCheck at aeroplane.ads:183 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Aeroplane.UnlockDoor at aeroplane.ads:101 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (2 checks)
+in unit main, 0 subprograms and packages out of 1 analyzed
+  Main at main.adb:5 skipped

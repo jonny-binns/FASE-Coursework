@@ -1,0 +1,2 @@
+aeroplane.adb:58:14: not fully conformant with declaration at aeroplane.ads:118
+aeroplane.adb:58:14: mode of "as" does not match

@@ -1,0 +1,5 @@
+aeroplane.adb:92:13: declarations must come before "Begin"
+aeroplane.adb:96:15: "=" should be ":="
+aeroplane.adb:97:16: missing ";"
+aeroplane.adb:105:13: declarations must come before "Begin"
+aeroplane.adb:106:16: missing ";"

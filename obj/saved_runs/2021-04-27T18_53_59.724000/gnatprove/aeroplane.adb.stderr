@@ -1,0 +1,4 @@
+aeroplane.adb:65:20: medium: range check might fail (e.g. when f = 0) [possible explanation: loop at line 61 should mention f in a loop invariant][#1]
+aeroplane.adb:234:95: low: range check might fail [possible explanation: subprogram at aeroplane.ads:171 should mention p in a precondition][#0]
+aeroplane.ads:119:76: medium: divide by zero might fail[#2]
+aeroplane.ads:119:76: medium: range check might fail[#3]

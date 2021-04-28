@@ -1,0 +1,3 @@
+aeroplane.adb:34:27: "=" should be ":="
+aeroplane.adb:35:47: missing operand
+aeroplane.adb:36:27: "=" should be ":="

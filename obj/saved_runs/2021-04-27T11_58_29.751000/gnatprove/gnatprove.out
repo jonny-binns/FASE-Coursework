@@ -1,0 +1,32 @@
+Summary of SPARK analysis
+=========================
+
+--------------------------------------------------------------------------------------------
+SPARK Analysis results        Total      Flow   CodePeer      Provers   Justified   Unproved
+--------------------------------------------------------------------------------------------
+Data Dependencies                 .         .          .            .           .          .
+Flow Dependencies                 .         .          .            .           .          .
+Initialization                    .         .          .            .           .          .
+Non-Aliasing                      .         .          .            .           .          .
+Run-time Checks                  28         .          .    28 (CVC4)           .          .
+Assertions                        .         .          .            .           .          .
+Functional Contracts              3         .          .     2 (CVC4)           .          1
+LSP Verification                  .         .          .            .           .          .
+Termination                       .         .          .            .           .          .
+Concurrency                       .         .          .            .           .          .
+--------------------------------------------------------------------------------------------
+Total                            31         .          .     30 (97%)           .     1 (3%)
+
+
+max steps used for successful proof: 736
+
+Analyzed 2 units
+in unit aeroplane, 6 subprograms and packages out of 6 analyzed
+  Aeroplane at aeroplane.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Aeroplane.FlightSim at aeroplane.ads:114 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 2 checks out of 3 proved
+  Aeroplane.FlightStatus at aeroplane.ads:102 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (26 checks)
+  Aeroplane.SetTakeOff at aeroplane.ads:93 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Aeroplane.SetTowMode at aeroplane.ads:82 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (1 checks)
+  Aeroplane.SystemCheck at aeroplane.ads:107 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+in unit main, 0 subprograms and packages out of 1 analyzed
+  Main at main.adb:5 skipped

@@ -1,0 +1,2 @@
+aeroplane.adb:170:19: high: formal parameter "p" and global "Plane" are aliased (SPARK RM 6.4.2)[#1]
+aeroplane.ads:86:27: warning: unused variable "p"[#0]

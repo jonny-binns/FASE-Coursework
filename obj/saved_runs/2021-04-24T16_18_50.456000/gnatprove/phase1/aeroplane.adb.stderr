@@ -1,0 +1,9 @@
+aeroplane.adb:83:38: invalid operand types for operator "="
+aeroplane.adb:83:38: left operand has type "EStatus" defined at aeroplane.ads:56
+aeroplane.adb:83:38: right operand has type "EngineStatus" defined at aeroplane.ads:54
+aeroplane.adb:85:41: invalid operand types for operator "="
+aeroplane.adb:85:41: left operand has type "EStatus" defined at aeroplane.ads:56
+aeroplane.adb:85:41: right operand has type "EngineStatus" defined at aeroplane.ads:54
+aeroplane.adb:91:39: invalid operand types for operator "="
+aeroplane.adb:91:39: left operand has type "EStatus" defined at aeroplane.ads:56
+aeroplane.adb:91:39: right operand has type "EngineStatus" defined at aeroplane.ads:54

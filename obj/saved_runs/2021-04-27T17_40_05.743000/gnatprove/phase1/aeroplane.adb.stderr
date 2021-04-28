@@ -1,0 +1,3 @@
+aeroplane.adb:62:14: "=" should be ":="
+aeroplane.adb:63:12: "=" should be ":="
+aeroplane.adb:66:06: missing "End If;" for "If" at line 64

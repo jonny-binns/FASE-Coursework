@@ -1,0 +1,3 @@
+aeroplane.ads:118:13: expected type "Standard.Boolean"
+aeroplane.ads:118:13: found type "FlightStage" defined at line 17
+aeroplane.ads:118:18: missing ";"

@@ -1,0 +1,2 @@
+main.adb:12:03: declarations must come before "begin"
+main.adb:105:01: statement expected

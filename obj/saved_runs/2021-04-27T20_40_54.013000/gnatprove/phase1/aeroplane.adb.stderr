@@ -1,0 +1,1 @@
+aeroplane.adb:623:07: missing argument for parameter "al" in call to "Setstationary" declared at aeroplane.ads:117

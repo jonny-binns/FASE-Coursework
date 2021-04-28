@@ -1,0 +1,1 @@
+aeroplane.ads:112:12: attribute "Result" can only appear in postcondition of function

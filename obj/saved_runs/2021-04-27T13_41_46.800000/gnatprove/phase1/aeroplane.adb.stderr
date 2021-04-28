@@ -1,0 +1,2 @@
+aeroplane.adb:23:27: expected type "LGear" defined at aeroplane.ads:48
+aeroplane.adb:23:27: found type "LandingGearPos" defined at aeroplane.ads:46

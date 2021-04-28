@@ -1,0 +1,3 @@
+aeroplane.adb:221:95: low: range check might fail [possible explanation: subprogram at aeroplane.ads:152 should mention p in a precondition][#1]
+aeroplane.adb:504:42: medium: range check might fail (e.g. when p = (CockpitDoor => (Status => closed, Lock => locked, Light => off), ExternalDoor => (Status => closed, Lock => locked, Light => off), Flight => takeOff, Fuel => (Level => 0, Light => off), MinimumFuel => 75, Altitude => (Altitude => 5000, Light => off), AirSpeed => (Speed => 935, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => on, Light => off)))[#2]
+aeroplane.ads:140:73: warning: unused variable "al"[#0]

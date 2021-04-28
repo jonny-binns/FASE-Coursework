@@ -1,0 +1,2 @@
+aeroplane.adb:503:33: expected a boolean type
+aeroplane.adb:503:33: found type "AltitudeRange" defined at aeroplane.ads:37
