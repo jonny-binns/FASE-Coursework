@@ -1,0 +1,3 @@
+aeroplane.adb:257:134: low: range check might fail[#0]
+aeroplane.adb:287:82: low: range check might fail[#1]
+aeroplane.ads:185:10: medium: postcondition might fail, cannot prove p.Altitude.Altitude'Old = p.Altitude.Altitude[#2]

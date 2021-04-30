@@ -1,0 +1,4 @@
+aeroplane.adb:625:29: warning: unused assignment to "p.CockpitDoor.Status"[#0]
+aeroplane.adb:626:30: warning: unused assignment to "p.ExternalDoor.Status"[#1]
+aeroplane.adb:627:31: warning: unused assignment to "p.CockpitDoor.Lock"[#2]
+aeroplane.adb:628:32: warning: unused assignment to "p.ExternalDoor.Lock"[#3]

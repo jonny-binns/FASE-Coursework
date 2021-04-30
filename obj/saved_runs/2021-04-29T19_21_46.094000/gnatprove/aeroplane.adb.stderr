@@ -1,0 +1,5 @@
+aeroplane.adb:257:37: low: range check might fail [possible explanation: subprogram at aeroplane.ads:178 should mention p in a precondition][#0]
+aeroplane.adb:257:78: low: range check might fail [possible explanation: subprogram at aeroplane.ads:178 should mention p in a precondition][#1]
+aeroplane.adb:257:106: low: range check might fail [possible explanation: subprogram at aeroplane.ads:178 should mention p in a precondition][#2]
+aeroplane.adb:257:134: low: range check might fail [possible explanation: subprogram at aeroplane.ads:178 should mention p in a precondition][#3]
+aeroplane.ads:180:10: medium: postcondition might fail, cannot prove p.ExternalDoor.Status'Old = p.ExternalDoor.Status[#4]

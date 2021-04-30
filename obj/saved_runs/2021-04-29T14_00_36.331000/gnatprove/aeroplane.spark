@@ -1,0 +1,800 @@
+{
+  "spark": [
+    {
+      "name": "Aeroplane",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 1
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.SetFuelLevel",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 81
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.CloseDoor",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 86
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.OpenDoor",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 91
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.LockDoor",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 96
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.UnlockDoor",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 101
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.EngineOff",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 106
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.EngineOn",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 111
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.SetStationary",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 117
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.SetTowMode",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 123
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.SetTakeOff",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 134
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.SetNormal",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 144
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.MaintainNormalFlight",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 153
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.SetLanding",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 160
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.FlightStatus",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 170
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.SystemCheck",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 186
+        }
+      ],
+      "spark": "all"
+    },
+    {
+      "name": "Aeroplane.FlightSim",
+      "sloc": [
+        {
+          "file": "aeroplane.ads",
+          "line": 193
+        }
+      ],
+      "spark": "all"
+    }
+  ],
+  "flow": [
+  ],
+  "assumptions": [
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.SetLanding",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 160
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.LockDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 96
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.SetNormal",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 144
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.MaintainNormalFlight",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 153
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.FlightStatus",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 170
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.SystemCheck",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 186
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.SetTakeOff",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 134
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.CloseDoor",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 86
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.EngineOff",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 106
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.EngineOn",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 111
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.FlightStatus",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 170
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.LockDoor",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 96
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.MaintainNormalFlight",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 153
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.OpenDoor",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 91
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.SetFuelLevel",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 81
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.SetLanding",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 160
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.SetNormal",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 144
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.SetStationary",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 117
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.SetTakeOff",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 134
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.SetTowMode",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 123
+              }
+            ]
+          }
+        },
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Aeroplane.UnlockDoor",
+            "sloc": [
+              {
+                "file": "aeroplane.ads",
+                "line": 101
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.FlightSim",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 193
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.UnlockDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 101
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.CloseDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 86
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.SetFuelLevel",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 81
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.EngineOn",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 111
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.FlightStatus",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 170
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.EngineOff",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 106
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.OpenDoor",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 91
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.SetStationary",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 117
+            }
+          ]
+        }
+      }
+    },
+    {
+      "assumptions": [
+        {
+          "predicate": "CLAIM_EFFECTS",
+          "arg": {
+            "name": "Ada.Text_IO.Put_Line",
+            "sloc": [
+              {
+                "file": "a-textio.ads",
+                "line": 508
+              }
+            ]
+          }
+        }
+      ],
+      "claim": {
+        "predicate": "CLAIM_EFFECTS",
+        "arg": {
+          "name": "Aeroplane.SetTowMode",
+          "sloc": [
+            {
+              "file": "aeroplane.ads",
+              "line": 123
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "timings": {
+    "globals/properties (advanced)": 2.05161999911070E-02,
+    "flow analysis": 1.72716602683067E-01,
+    "marking": 6.40850001946092E-03,
+    "globals (basic)": 1.62889007478952E-02
+  }
+}

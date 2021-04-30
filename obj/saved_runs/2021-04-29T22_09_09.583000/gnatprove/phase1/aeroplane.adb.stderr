@@ -1,0 +1,11 @@
+aeroplane.adb:4:14: missing body for "FlightStatus" declared at aeroplane.ads:178
+aeroplane.adb:147:10: expected type universal integer
+aeroplane.adb:147:10: found type "FuelLevel" defined at aeroplane.ads:22
+aeroplane.adb:149:13: expected type universal integer
+aeroplane.adb:149:13: found type "FuelLevel" defined at aeroplane.ads:22
+aeroplane.adb:149:26: expected type universal integer
+aeroplane.adb:149:26: found type "FuelLevel" defined at aeroplane.ads:22
+aeroplane.adb:151:13: expected type universal integer
+aeroplane.adb:151:13: found type "FuelLevel" defined at aeroplane.ads:22
+aeroplane.adb:151:26: expected type universal integer
+aeroplane.adb:151:26: found type "FuelLevel" defined at aeroplane.ads:22

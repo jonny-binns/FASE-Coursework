@@ -14,7 +14,7 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV MAX_TASKS=1+
 
-U main%b		main.adb		e470efd7 NE OO SU
+U main%b		main.adb		b3f430bb NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.real_time%s	a-reatim.adb		a-reatim.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
@@ -35,7 +35,7 @@ D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
 D a-tags.ads		20200228061810 edddc8f0 ada.tags%s
 D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
 D a-unccon.ads		20200228061810 0e9b276f ada.unchecked_conversion%s
-D aeroplane.ads		20210426185558 2411618b aeroplane%s
+D aeroplane.ads		20210430091216 7395bee7 aeroplane%s
 D interfac.ads		20200228061810 5ab55268 interfaces%s
 D i-c.ads		20200228061810 c624fa43 interfaces.c%s
 D i-cstrin.ads		20200228061810 341d0ddf interfaces.c.strings%s
@@ -66,9 +66,9 @@ D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
 D s-win32.ads		20200228061810 15ac53fb system.win32%s
 G a e
 G c Z b b [main standard 5 11 none]
-G r c none [main standard 5 11 none] [flightstatus aeroplane 90 14 none]
-G r c none [main standard 5 11 none] [systemcheck aeroplane 95 14 none]
-G r c none [main standard 5 11 none] [flightsim aeroplane 100 14 none]
+G r c none [main standard 5 11 none] [flightstatus aeroplane 187 14 none]
+G r c none [main standard 5 11 none] [systemcheck aeroplane 203 14 none]
+G r c none [main standard 5 11 none] [flightsim aeroplane 210 14 none]
 X 1 ada.ads
 16K9*Ada 20e8 14|2r6 2r23
 X 7 a-textio.ads
@@ -76,11 +76,11 @@ X 7 a-textio.ads
 481U14*Get_Line 14|20s10
 508U14*Put_Line 14|16s10 17s10 18s10 19s10
 X 9 aeroplane.ads
-1K9*Aeroplane 102e14 14|1w6 1r21
+1K9*Aeroplane 212e14 14|1w6 1r21
 76r4*Plane{63R9} 14|22m35 22r35 23m34 23r34 24m32 24r32
-90U14*FlightStatus 14|22s22
-95U14*SystemCheck 14|23s22
-100U14*FlightSim 14|24s22
+187U14*FlightStatus 14|22s22
+203U14*SystemCheck 14|23s22
+210U14*FlightSim 14|24s22
 X 14 main.adb
 5U11*Main 5b11 32l5 32t9
 7a7 Str{string} 20m19 21r15

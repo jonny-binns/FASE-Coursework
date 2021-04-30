@@ -1,0 +1,31 @@
+aeroplane.adb:139:51: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:143:52: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:251:51: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:358:20: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:360:21: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:384:20: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:386:21: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:405:20: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:407:21: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:431:20: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:433:21: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:451:20: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:453:21: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:472:20: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:474:21: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:493:20: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:495:21: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:509:20: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:511:21: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:536:30: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:537:31: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:644:29: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.adb:645:30: no selector "Status" for type "Door" defined at aeroplane.ads:10
+aeroplane.ads:64:29: no value supplied for component "State"
+aeroplane.ads:64:30: "Status" is not a component of type "Door" defined at line 10
+aeroplane.ads:65:30: no value supplied for component "State"
+aeroplane.ads:65:31: "Status" is not a component of type "Door" defined at line 10
+aeroplane.ads:124:15: no selector "Status" for type "Door" defined at line 10
+aeroplane.ads:125:12: no selector "Status" for type "Door" defined at line 10
+aeroplane.ads:135:15: no selector "Status" for type "Door" defined at line 10
+aeroplane.ads:136:12: no selector "Status" for type "Door" defined at line 10

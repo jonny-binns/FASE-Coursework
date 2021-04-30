@@ -1,0 +1,4 @@
+aeroplane.adb:84:14: not fully conformant with declaration at aeroplane.ads:144
+aeroplane.adb:84:14: mode of "fmode" does not match
+aeroplane.adb:118:14: not fully conformant with declaration at aeroplane.ads:159
+aeroplane.adb:118:14: mode of "fmode" does not match

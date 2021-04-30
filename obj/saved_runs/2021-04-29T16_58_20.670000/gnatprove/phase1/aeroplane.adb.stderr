@@ -1,0 +1,2 @@
+aeroplane.adb:524:26: expected type "EngineStatus" defined at aeroplane.ads:54
+aeroplane.adb:524:26: found type universal integer

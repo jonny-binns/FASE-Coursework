@@ -1,0 +1,1 @@
+aeroplane.ads:179:14: medium: postcondition might fail, cannot prove p.CockpitDoor.Status = p.CockpitDoor.Status'old[#0]

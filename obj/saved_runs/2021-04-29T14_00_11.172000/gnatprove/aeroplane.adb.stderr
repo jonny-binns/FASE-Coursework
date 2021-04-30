@@ -1,0 +1,5 @@
+aeroplane.adb:262:95: low: range check might fail [possible explanation: subprogram at aeroplane.ads:170 should mention p in a precondition][#4]
+aeroplane.adb:625:29: warning: unused assignment to "p.CockpitDoor.Status"[#0]
+aeroplane.adb:626:30: warning: unused assignment to "p.ExternalDoor.Status"[#1]
+aeroplane.adb:627:31: warning: unused assignment to "p.CockpitDoor.Lock"[#2]
+aeroplane.adb:628:32: warning: unused assignment to "p.ExternalDoor.Lock"[#3]

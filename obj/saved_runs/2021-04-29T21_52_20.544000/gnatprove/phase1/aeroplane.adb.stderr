@@ -1,0 +1,88 @@
+aeroplane.adb:4:14: missing body for "FlightStatus" declared at aeroplane.ads:178
+aeroplane.adb:161:07: no candidate interpretations match the actuals:
+aeroplane.adb:161:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:161:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:168:07: no candidate interpretations match the actuals:
+aeroplane.adb:168:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:168:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:173:07: no candidate interpretations match the actuals:
+aeroplane.adb:173:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:173:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:183:07: no candidate interpretations match the actuals:
+aeroplane.adb:183:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:183:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:187:07: no candidate interpretations match the actuals:
+aeroplane.adb:187:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:187:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:192:07: no candidate interpretations match the actuals:
+aeroplane.adb:192:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:192:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:197:07: no candidate interpretations match the actuals:
+aeroplane.adb:197:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:197:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:206:07: no candidate interpretations match the actuals:
+aeroplane.adb:206:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:206:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:222:07: no candidate interpretations match the actuals:
+aeroplane.adb:222:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:222:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:227:07: no candidate interpretations match the actuals:
+aeroplane.adb:227:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:227:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:232:07: no candidate interpretations match the actuals:
+aeroplane.adb:232:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:232:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:253:07: no candidate interpretations match the actuals:
+aeroplane.adb:253:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:253:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:269:07: no candidate interpretations match the actuals:
+aeroplane.adb:269:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:269:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:274:07: no candidate interpretations match the actuals:
+aeroplane.adb:274:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:274:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:279:07: no candidate interpretations match the actuals:
+aeroplane.adb:279:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:279:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:299:07: no candidate interpretations match the actuals:
+aeroplane.adb:299:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:299:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:315:07: no candidate interpretations match the actuals:
+aeroplane.adb:315:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:315:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:320:07: no candidate interpretations match the actuals:
+aeroplane.adb:320:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:320:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:341:07: no candidate interpretations match the actuals:
+aeroplane.adb:341:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:341:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:357:07: no candidate interpretations match the actuals:
+aeroplane.adb:357:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:357:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:397:07: no candidate interpretations match the actuals:
+aeroplane.adb:397:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:397:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:407:07: no candidate interpretations match the actuals:
+aeroplane.adb:407:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:407:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:420:07: no candidate interpretations match the actuals:
+aeroplane.adb:420:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:420:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:436:07: no candidate interpretations match the actuals:
+aeroplane.adb:436:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:436:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:451:07: no candidate interpretations match the actuals:
+aeroplane.adb:451:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:451:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:464:07: no candidate interpretations match the actuals:
+aeroplane.adb:464:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:464:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:474:07: no candidate interpretations match the actuals:
+aeroplane.adb:474:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:474:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:484:07: no candidate interpretations match the actuals:
+aeroplane.adb:484:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:484:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178
+aeroplane.adb:493:07: no candidate interpretations match the actuals:
+aeroplane.adb:493:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at line 135
+aeroplane.adb:493:07: missing argument for parameter "cdl" in call to "Flightstatus" declared at aeroplane.ads:178

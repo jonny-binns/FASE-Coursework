@@ -112,6 +112,15 @@ package Aeroplane with SPARK_mode is
      Pre => f = takeOff or f = manual,
      Post => e = on;
 
+    procedure LGearDown (g: out LandingGearPos; f : in FlightStage) with
+     Pre => f = stationary or f = landing or f = tow or f = manual,
+     Post => g = down;
+
+   --turn on engine
+   procedure LGearUp (g: out LandingGearPos; f : in FlightStage) with
+     Pre => f = takeOff or f= normal or f = manual,
+     Post => g = up;
+
 
    --stationary
    procedure SetStationary (fmode: out FlightStage; al : in AltitudeRange; as : in AirSpeedRange) with
@@ -134,17 +143,16 @@ package Aeroplane with SPARK_mode is
    procedure SetTakeOff (fmode: out FlightStage; d1 : in Door; d2 : in Door; f : in FuelLevelMeasure; fmin : in FuelLevelMeasure; a : in AltitudeRange; lg : in out LandingGearPos) with
      Pre => d1.Status = closed and d1.Lock = locked
      and d2.Status = closed and d2.Lock = locked
-     and f >= fmin,
+     and f >= fmin and a <= 10000,
      Post => fmode = takeOff;
 
 
       --set to normal flight
       --air speed/altitude are within range
       --landing gear up
-   procedure SetNormal (fmode : out FlightStage; as : in AirSpeedRange; al : in AltitudeRange) with
-     Pre => as = 935 and al = 35000,
+   procedure SetNormal (fmode : in out FlightStage; as : in AirSpeedRange; al : in AltitudeRange) with
+     Pre => fmode = takeOff and as = 935 and al = 35000,
    Post => fmode = normal;
---and al >= 30000 and al <= 40000
 
    --maintain normal flight
    --keeps airspeed/altitude within rabge
@@ -157,9 +165,18 @@ package Aeroplane with SPARK_mode is
    --landing
    --altitude below 10000
    --set landing gear below 10000
-   procedure SetLanding (fmode : out FlightStage; al : in AltitudeRange; lg : in out LandingGearPos) with
-     Pre => al <= 10000,
+   procedure SetLanding (fmode : in out FlightStage; al : in AltitudeRange; lg : in out LandingGearPos) with
+     Pre => fmode = normal and al <= 10000,
      Post => fmode = landing;
+
+   --manual
+   --can only be acivated when any light is flashing
+   procedure SetManual (fmode : out FlightStage; d1light : in WarningLight; d2light : in WarningLight; flight : in WarningLight; allight : in WarningLight; aslight : in WarningLight; lglight : in WarningLight; elight : in WarningLight) with
+     Pre => d1light = FLASHING or d2light = FLASHING
+     or flight = FLASHING or allight = FLASHING
+     or aslight = FLASHING or lglight = FLASHING
+     or elight = FLASHING,
+     Post => fmode = manual;
 
 
 
@@ -168,15 +185,15 @@ package Aeroplane with SPARK_mode is
    --Flight status
    -- returns the status of the plane and controls warning lights
    procedure FlightStatus (p : in out PlaneRec) with
-     Post => p.CockpitDoor.Status = p.CockpitDoor.Status'Old and p.CockpitDoor.Lock = p.CockpitDoor.Lock'Old
-     and p.ExternalDoor.Status = p.ExternalDoor.Status'Old and p.ExternalDoor.Lock = p.ExternalDoor.Lock'Old
-     and p.Flight = p.Flight'Old
-     and p.MinimumFuel = p.MinimumFuel'Old
-     and p.Fuel.Level = p.Fuel.Level'Old
-     and p.Altitude.Altitude = p.Altitude.Altitude'Old
-     and p.AirSpeed.Speed = p.AirSpeed.Speed'Old
-     and p.LandingGear.Position = p.LandingGear.Position'Old
-     and p.Engine.Status = p.Engine.Status'Old;
+    Post => p.CockpitDoor.Status'Old = p.CockpitDoor.Status and p.CockpitDoor.Lock'Old = p.CockpitDoor.Lock
+     and p.ExternalDoor.Status'Old = p.ExternalDoor.Status and p.ExternalDoor.Lock'Old = p.ExternalDoor.Lock
+     and p.Flight'Old = p.Flight
+     and p.MinimumFuel'Old = p.MinimumFuel
+     and p.Fuel.Level'Old = p.Fuel.Level
+     and p.Altitude.Altitude'Old = p.Altitude.Altitude
+     and p.AirSpeed.Speed'Old = p.AirSpeed.Speed
+     and p.LandingGear.Position'Old = p.LandingGear.Position
+     and p.Engine.Status'Old = p.Engine.Status;
 
 
 

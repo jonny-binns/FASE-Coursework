@@ -1,0 +1,541 @@
+V "GNAT Lib v2020"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U aeroplane%b		aeroplane.adb		deaaf0d9 OO PK KM
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U aeroplane%s		aeroplane.ads		562f6e0e OO PK
+
+D ada.ads		20200228061810 76789da1 ada%s
+D a-ioexce.ads		20200228061810 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200228061810 119b8fb3 ada.streams%s
+D a-textio.ads		20200228061810 aef4d56d ada.text_io%s
+D aeroplane.ads		20210429155728 562f6e0e aeroplane%s
+D aeroplane.adb		20210429155840 26714bba aeroplane%b
+D interfac.ads		20200228061810 5ab55268 interfaces%s
+D i-cstrea.ads		20200228061810 e53d8b8e interfaces.c_streams%s
+D system.ads		20200228061810 32a08138 system%s
+D s-crtl.ads		20200228061810 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20200228061810 078245e4 system.file_control_block%s
+D s-parame.ads		20200228061810 4752c4cb system.parameters%s
+D s-wchcon.ads		20200228061810 1b7d22d2 system.wch_con%s
+G a Z
+X 1 ada.ads
+16K9*Ada 20e8 6|1r6 1r23
+X 4 a-textio.ads
+57K13*Text_IO 727e16 6|1w10 1r27
+508U14*Put_Line 6|12s7 19s7 26s7 33s7 40s7 47s7 54s7 63s7 70s7 80s6 100s13
+. 112s13 124s6 243s7 245s7 249s10 251s7 255s10 261s10 263s7 267s10 269s7
+. 273s11 275s7 279s11 285s11 295s7 296s7 297s7 298s7 301s7 302s7 304s7 306s7
+. 310s7 313s7 314s7 316s7 318s7 322s7 325s7 326s7 328s7 332s7 335s7 337s7
+. 340s7 342s7 346s7 349s7 350s7 352s7 354s7 367s7 370s7 372s7 375s7 377s7
+. 380s7 396s7 397s7 399s7 401s7 414s7 417s7 419s7 422s7 424s7 427s7 442s7
+. 443s7 445s7 447s7 461s7 463s7 466s7 468s7 484s7 485s7 487s7 489s7 503s7
+. 505s7 523s7 527s7 529s7 533s7 535s7 541s7 543s7 546s7 551s7 553s7 556s7
+. 563s7 565s7 568s7 576s7 579s7 581s7 584s7 585s7 588s7 592s7 594s7 596s7
+. 599s7 603s7 607s7 609s7 612s7 617s7 619s7 621s7 625s7 627s7 629s7 632s7
+. 636s7 638s7 640s7 641s7 643s7 649s7
+X 5 aeroplane.ads
+1K9*Aeroplane 203l5 203e14 6|4b14 661l5 661t14
+4E9*WarningLight 4e52 13r15 24r15 32r18 41r18 50r15 58r18 165r63 165r90 165r116
+. 165r143 165r170 165r197 165r223 6|128r62 128r89 128r115 128r142 128r169
+. 128r196 128r222
+4n26*off{4E9} 64r73 65r74 67r50 70r50 71r50 72r58 73r52 6|149r26 160r30 170r30
+. 175r30 185r30 190r33 199r33 220r28 232r33 233r34 234r26 235r30 236r30 237r33
+. 238r28 309r30 321r31
+4n31*AMBER{4E9} 6|151r26 162r30 177r30 206r33 213r33
+4n38*RED{4E9} 6|153r26 164r30 179r30 260r52 266r60 272r60
+4n43*FLASHING{4E9} 166r23 166r45 167r18 167r40 168r19 168r41 169r18 6|140r33
+. 144r34 155r26 166r30 181r30 192r33 197r33 204r33 211r33 218r28 226r28 248r32
+. 254r33 260r25 266r29 272r29 278r32 284r27 307r30 319r31
+7E9*DStatus 7e34 11r16 86r33 91r32 6|16r32 23r31
+7n21*open{7E9} 64r40 65r41 93r18 6|25r12 139r61 143r62 384r31 386r32 431r31
+. 433r32 472r31 474r32 509r31 511r32
+7n27*closed{7E9} 88r18 124r25 125r22 135r25 136r22 6|18r12 358r31 360r32
+. 405r31 407r32 451r31 453r32 493r31 495r32
+8E9*DLock 8e36 12r14 96r32 101r34 6|30r31 37r33
+8n19*unlocked{8E9} 64r54 65r55 103r18 6|39r12 139r90 143r92 385r29 387r30
+. 432r29 434r30 473r29 475r30 510r29 512r30
+8n29*locked{8E9} 98r18 124r46 125r43 135r46 136r43 6|32r12 359r29 361r30
+. 406r29 408r30 452r29 454r30 494r29 496r30
+10R9*Door 14e14 64r21 65r22 123r58 123r72 134r58 134r72 6|67r57 67r71 74r57
+. 74r71
+11e7*Status{7E9} 64m30 65m31 124r16 125r13 135r16 136r13 179r28 179r51 180r25
+. 180r49 6|139r52 143r53 251r52 358m21 360m22 384m21 386m22 405m21 407m22
+. 431m21 433m22 451m21 453m22 472m21 474m22 493m21 495m22 509m21 511m22 536m31
+. 537m32 644m30 645m31
+12e7*Lock{8E9} 64m46 65m47 124r39 125r36 135r39 136r36 179r80 179r101 180r79
+. 180r101 6|139r83 143r85 251r92 359m21 361m22 385m21 387m22 406m21 408m22
+. 432m21 434m22 452m21 454m22 473m21 475m22 494m21 496m22 510m21 512m22 538m30
+. 539m31 646m32 647m33
+13e7*Light{4E9} 64m64 65m65 6|140m24 144m25 232m24 233m25 248r24 251r147
+. 254r25 307m21 309m21 319m22 321m22
+17E9*FlightStage 17e75 66r16 86r49 91r48 96r46 101r48 106r53 111r52 117r40
+. 123r37 134r37 144r40 152r47 159r41 165r37 6|16r48 23r47 30r45 37r47 44r53
+. 51r52 60r42 67r36 74r36 84r40 90r47 118r40 128r36
+17n25*stationary{17E9} 66r31 87r17 92r17 97r17 102r17 107r17 119r22 195r24
+. 202r22 6|62r16 139r22 143r22 196r22 198r25 383r19 430r19 471r19 508r19
+. 651r19
+17n37*takeOff{17E9} 112r17 138r22 145r21 6|76r16 203r21 205r24 225r22 450r19
+17n46*normal{17E9} 146r20 153r21 160r21 6|86r16 159r21 161r24 163r24 165r24
+. 169r22 174r21 176r24 178r24 180r24 184r22 189r21 191r24 225r44 357r19 404r19
+. 492r19
+17n54*landing{17E9} 107r35 161r22 6|120r13 210r21 212r24 225r65
+17n63*tow{17E9} 107r50 127r22 6|69r16 196r47 198r50 217r21 219r24
+17n68*manual{17E9} 87r35 92r35 97r35 102r35 107r61 112r32 170r22 6|130r16
+. 231r21
+20I9*FuelLevelMeasure<short_short_integer> 23r15 69r21 81r36 81r66 81r94
+. 134r85 134r113 6|9r36 9r66 9r94 74r84 74r112
+22R9*FuelLevel 25e14 67r14
+23i7*Level{20I9} 67m28 183r17 183r32 6|148r17 150r20 150r43 152r20 152r43
+. 263r40 329m14 333m14 338m14 343m14 345m14 362m14 388m14 409m14 435m14 455m14
+. 476m14 497m14 513m14 530m27 558r66 572m14 591m14 592r45 598m14 599r45 624m14
+. 652m14
+24e7*Light{4E9} 67m41 6|149m17 151m17 153m17 155m17 234m17 260r17 260r44
+. 263r90
+28I9*AirSpeedRange<short_integer> 31r18 117r84 144r61 152r72 6|60r86 84r61
+. 90r72
+30R12*ASpeed 33e17 71r18
+31i10*Speed{28I9} 71m29 185r21 185r40 6|174r44 174r72 176r48 176r76 176r103
+. 176r129 178r48 178r76 178r103 178r129 275r46 363m18 390m18 415m18 420m18
+. 425m18 437m18 478m18 499m18 515m18 570m18 577r38 586m18 588r43 590m49 604m18
+. 613m18 622m18 642r63 654m18
+32e10*Light{4E9} 71m41 6|175m21 177m21 179m21 181m21 185m21 236m21 272r21
+. 272r52 275r104
+37I12*AltitudeRange<integer> 40r21 117r61 134r138 144r84 152r99 159r62 6|60r63
+. 74r137 84r84 90r99 118r61
+39R12*Alt 42e17 70r18
+40i10*Altitude{37I12} 70m26 184r21 184r43 6|159r44 159r77 161r48 161r81 161r113
+. 161r144 163r48 163r81 163r113 163r144 203r44 210r44 269r45 368m18 373m18
+. 378m18 389m18 410m18 436m18 456m18 465m18 477m18 498m18 514m18 558r99 571m18
+. 577r56 587m18 588r88 590m67 605m18 614m18 616r39 623m18 642r42 653m18
+41e10*Light{4E9} 70m41 6|160m21 162m21 164m21 166m21 170m21 235m21 266r21
+. 266r52 269r104
+46E9*LandingGearPos 46e37 49r18 134r165 159r89 6|74r164 118r88
+46n28*down{46E9} 72r43 138r58 6|78r16 122r16 191r60 198r84 391r33 438r33
+. 479r33 516r33 655r33
+46n34*up{46E9} 6|189r57 196r81 203r91 210r91 364r33 411r33 457r33 500r33
+. 573r33
+48R9*LGear 51e14 72r21
+49e7*Position{46E9} 72m31 186r24 186r49 6|189r46 191r49 196r70 198r73 203r80
+. 210r80 364m21 391m21 411m21 438m21 457m21 479m21 500m21 516m21 558m123
+. 573m21 616m63 655m21
+50e7*Light{4E9} 72m49 6|190m24 192m24 197m24 199m24 204m24 206m24 211m24
+. 213m24 237m24 278r24
+54E12*EngineStatus 54e37 57r19 106r32 111r31 6|44r32 51r31
+54n29*on{54E12} 113r18 6|53r12 217r47 365r26 412r26 458r26
+54n33*off{54E12} 73r38 108r18 126r21 6|46r12 219r50 225r96 392r26 439r26
+. 480r26 501r26 517r26 656r26
+56R12*EStatus 59e17 73r16 123r85 6|67r84
+57e10*Status{54E12} 73m28 126r12 187r19 187r37 6|217r38 219r41 225r87 365m16
+. 392m16 412m16 439m16 458m16 480m16 501m16 517m16 547m26 561m25 633m26 656m16
+58e10*Light{4E9} 73m43 6|218m19 220m19 226m19 238m19 284r19
+63R9*PlaneRec 74e14 76r12 178r39 194r38 201r36 6|135r39 292r38 521r37
+64r7*CockpitDoor{10R9} 179r16 179r39 179r68 179r89 6|139r40 139r71 140m12
+. 232m12 248r12 251r40 251r80 251r135 307m9 309m9 358m9 359m9 384m9 385m9
+. 405m9 406m9 431m9 432m9 451m9 452m9 472m9 473m9 493m9 494m9 509m9 510m9
+. 536m19 538m18 548r30 558r30 634r30 644m18 646m20
+65r7*ExternalDoor{10R9} 180r12 180r36 180r66 180r88 6|143r40 143r72 144m12
+. 233m12 254r12 319m9 321m9 360m9 361m9 386m9 387m9 407m9 408m9 433m9 434m9
+. 453m9 454m9 474m9 475m9 495m9 496m9 511m9 512m9 537m19 539m18 548r45 558r45
+. 634r45 645m18 647m20
+66e7*Flight{17E9} 181r12 181r23 195r15 202r13 6|139r12 143r12 159r12 161r15
+. 163r15 165r15 169r12 174r12 176r15 178r15 180r15 184r12 189r12 191r15 196r13
+. 196r38 198r16 198r41 203r12 205r15 210r12 212r15 217r12 219r15 225r13 225r35
+. 225r56 231r12 245r37 357m9 383m9 404m9 430m9 450m9 471m9 492m9 508m9 536r41
+. 537r42 538r38 539r39 547r36 548m20 558m20 561r35 577m19 590r30 616m20 633r36
+. 634m20 642m23 644r40 645r41 646r40 647r41 651m9
+67r7*Fuel{22R9} 183r12 183r27 6|148r12 149m12 150r15 150r38 151m12 152r15
+. 152r38 153m12 155m12 234m12 260r12 260r39 263r35 263r85 329m9 333m9 338m9
+. 343m9 345m9 362m9 388m9 409m9 435m9 455m9 476m9 497m9 513m9 530m22 558r61
+. 572m9 591m9 592r40 598m9 599r40 624m9 652m9
+69i7*MinimumFuel{20I9} 182r12 182r28 6|526m9 527r65 530r41 558r75
+70r7*Altitude{39R12} 184r12 184r34 6|159r35 159r68 160m12 161r39 161r72 161r104
+. 161r135 162m12 163r39 163r72 163r104 163r135 164m12 166m12 170m12 203r35
+. 210r35 235m12 266r12 266r43 269r36 269r95 368m9 373m9 378m9 389m9 410m9
+. 436m9 456m9 465m9 477m9 498m9 514m9 558r90 571m9 577r47 587m9 588r79 590m58
+. 605m9 614m9 616r30 623m9 642r33 653m9
+71r7*AirSpeed{30R12} 185r12 185r31 6|174r35 174r63 175m12 176r39 176r67 176r94
+. 176r120 177m12 178r39 178r67 178r94 178r120 179m12 181m12 185m12 236m12
+. 272r12 272r43 275r37 275r95 363m9 390m9 415m9 420m9 425m9 437m9 478m9 499m9
+. 515m9 570m9 577r29 586m9 588r34 590m40 604m9 613m9 622m9 642r54 654m9
+72r7*LandingGear{48R9} 186r12 186r37 6|189r34 190m12 191r37 192m12 196r58
+. 197m12 198r61 199m12 203r68 204m12 206m12 210r68 211m12 213m12 237m12 278r12
+. 364m9 391m9 411m9 438m9 457m9 479m9 500m9 516m9 558m111 573m9 616m51 655m9
+73r7*Engine{56R12} 187r12 187r30 6|217r31 218m12 219r34 220m12 225r80 226m12
+. 238m12 284r12 365m9 392m9 412m9 439m9 458m9 480m9 501m9 517m9 547m19 548r61
+. 561m18 633m19 634r61 656m9
+76r4*Plane{63R9}
+81U14*SetFuelLevel 81<28 81>54 81>84 6|9b14 13l8 13t20 530s7
+81i28 f{20I9} 83r14 83r28 6|9b28 11m7 12r40
+81i54 flevel{20I9} 82r13 83r32 6|9b54 11r12
+81i84 fmin{20I9} 82r23 83r19 6|9b84
+86U14*CloseDoor 86<25 86>42 6|16b14 20l8 20t17 536s7 537s7
+86e25 d{7E9} 88r14 6|16b24 18m7 19r32
+86e42 f{17E9} 87r13 87r31 6|16b41
+91U14*OpenDoor 91<24 91>41 6|23b14 27l8 27t16 644s7 645s7
+91e24 d{7E9} 93r14 6|23b23 25m7 26r32
+91e41 f{17E9} 92r13 92r31 6|23b40
+96U14*LockDoor 96<24 96>39 6|30b14 34l8 34t16 538s7 539s7
+96e24 d{8E9} 98r14 6|30b23 32m7 33r32
+96e39 f{17E9} 97r13 97r31 6|30b38
+101U14*UnlockDoor 101<26 101>41 6|37b14 41l8 41t18 646s7 647s7
+101e26 d{8E9} 103r14 6|37b25 39m7 40r32
+101e41 f{17E9} 102r13 102r31 6|37b40
+106U14*EngineOff 106<25 106>46 6|44b14 48l8 48t17 547s7 633s7
+106e25 e{54E12} 108r14 6|44b25 46m7 47r34
+106e46 f{17E9} 107r13 107r31 107r46 107r57 6|44b46
+111U14*EngineOn 111<24 111>45 6|51b14 55l8 55t16 561s7
+111e24 e{54E12} 113r14 6|51b24 53m7 54r34
+111e45 f{17E9} 112r13 112r28 6|51b45
+117U14*SetStationary 117<29 117>53 117>76 6|60b17 64l8 64t21 642s7
+117e29 fmode{17E9} 119r14 6|60b31 62m7 63r32
+117i53 al{37I12} 118r13 6|60b55
+117i76 as{28I9} 118r24 6|60b78
+123U14*SetTowMode 123<26 123>50 123>64 123>78 6|67b14 71l8 71t18 548s7 634s7
+123e26 fmode{17E9} 127r14 6|67b25 69m7 70r32
+123r50 d1{10R9} 124r13 124r36 6|67b49
+123r64 d2{10R9} 125r10 125r33 6|67b63
+123r78 e{56R12} 126r10 6|67b77
+134U14*SetTakeOff 134<26 134>50 134>64 134>78 134>103 134>131 134=153 6|74b14
+. 81l8 81t18 558s7
+134e26 fmode{17E9} 138r14 6|74b25 76m7 80r32
+134r50 d1{10R9} 135r13 135r36 6|74b49
+134r64 d2{10R9} 136r10 136r33 6|74b63
+134i78 f{20I9} 137r10 6|74b77
+134i103 fmin{20I9} 137r15 6|74b102
+134i131 a{37I12} 138r38 6|74b130 77r10 80r74
+134e153 lg{46E9} 138r53 6|74b152 78m10 80r113
+144U14*SetNormal 144=25 144>53 144>76 6|84b14 87l8 87t17 577s7
+144e25 fmode{17E9} 145r13 146r12 6|84b25 86m7
+144i53 as{28I9} 145r33 6|84b53
+144i76 al{37I12} 145r46 6|84b76
+152U14*MaintainNormalFlight 152>36 152=60 152=87 6|90b14 115l8 115t28 590s7
+152e36 fmode{17E9} 153r13 6|90b36
+152i60 as{28I9} 154r16 6|90b60 92r13 93r13 94m13 94r19 96r13 97m13 97r19
+. 99r13 100r37
+152i87 al{37I12} 154r29 6|90b87 104r13 105r13 106m13 106r19 108r13 109m13
+. 109r19 111r13 112r36
+159U14*SetLanding 159=26 159>54 159=77 6|118b14 125l8 125t18 616s7
+159e26 fmode{17E9} 160r13 161r14 6|118b25 120m4 124r32
+159i54 al{37I12} 160r32 6|118b53 121r10 124r74
+159e77 lg{46E9} 6|118b76 122m10 124r114
+165U14*SetManual 165<25 165>50 165>77 165>104 165>130 165>157 165>184 165>211
+. 6|128b14 131l8 131t17
+165e25 fmode{17E9} 170r14 6|128b24 130m7
+165e50 d1light{4E9} 166r13 6|128b49
+165e77 d2light{4E9} 166r35 6|128b76
+165e104 flight{4E9} 167r9 6|128b103
+165e130 allight{4E9} 167r30 6|128b129
+165e157 aslight{4E9} 168r9 6|128b156
+165e184 lglight{4E9} 168r31 6|128b183
+165e211 elight{4E9} 169r9 6|128b210
+178U14*FlightStatus 178=28 6|135b14 288l7 288t19 303s7 308s7 315s7 320s7
+. 330s7 334s7 339s7 344s7 353s7 369s7 374s7 379s7 400s7 416s7 421s7 426s7
+. 446s7 462s7 467s7 488s7 504s7 542s7 552s7 564s7 580s7 595s7 608s7 618s7
+. 628s7 637s7
+178r28 p{63R9} 179r14 179r37 179r66 179r87 180r10 180r34 180r64 180r86 181r10
+. 181r21 182r10 182r26 183r10 183r25 184r10 184r32 185r10 185r29 186r10 186r35
+. 187r10 187r28 6|135b28 139r10 139r38 139r69 140m10 143r10 143r38 143r70
+. 144m10 148r10 149m10 150r13 150r36 151m10 152r13 152r36 153m10 155m10 159r10
+. 159r33 159r66 160m10 161r13 161r37 161r70 161r102 161r133 162m10 163r13
+. 163r37 163r70 163r102 163r133 164m10 165r13 166m10 169r10 170m10 174r10
+. 174r33 174r61 175m10 176r13 176r37 176r65 176r92 176r118 177m10 178r13
+. 178r37 178r65 178r92 178r118 179m10 180r13 181m10 184r10 185m10 189r10
+. 189r32 190m10 191r13 191r35 192m10 196r11 196r36 196r56 197m10 198r14 198r39
+. 198r59 199m10 203r10 203r33 203r66 204m10 205r13 206m10 210r10 210r33 210r66
+. 211m10 212r13 213m10 217r10 217r29 218m10 219r13 219r32 220m10 225r11 225r33
+. 225r54 225r78 226m10 231r10 232m10 233m10 234m10 235m10 236m10 237m10 238m10
+. 245r35 248r10 251r38 251r78 251r133 254r10 260r10 260r37 263r33 263r83
+. 266r10 266r41 269r34 269r93 272r10 272r41 275r35 275r93 278r10 284r10
+194U14*SystemCheck 194=27 6|292b14 518l8 518t19
+194r27 p{63R9} 195r13 6|292b27 303m20 307m7 308m20 309m7 315m20 319m7 320m20
+. 321m7 329m7 330m20 333m7 334m20 338m7 339m20 343m7 344m20 345m7 353m20
+. 357m7 358m7 359m7 360m7 361m7 362m7 363m7 364m7 365m7 368m7 369m20 373m7
+. 374m20 378m7 379m20 383m7 384m7 385m7 386m7 387m7 388m7 389m7 390m7 391m7
+. 392m7 400m20 404m7 405m7 406m7 407m7 408m7 409m7 410m7 411m7 412m7 415m7
+. 416m20 420m7 421m20 425m7 426m20 430m7 431m7 432m7 433m7 434m7 435m7 436m7
+. 437m7 438m7 439m7 446m20 450m7 451m7 452m7 453m7 454m7 455m7 456m7 457m7
+. 458m7 462m20 465m7 467m20 471m7 472m7 473m7 474m7 475m7 476m7 477m7 478m7
+. 479m7 480m7 488m20 492m7 493m7 494m7 495m7 496m7 497m7 498m7 499m7 500m7
+. 501m7 504m20 508m7 509m7 510m7 511m7 512m7 513m7 514m7 515m7 516m7 517m7
+201U14*FlightSim 201=25 6|521b14 658l8 658t17
+201r25 p{63R9} 202r11 6|521b26 526m7 527r63 530m20 530r20 530r39 536m17 536r17
+. 536r39 537m17 537r17 537r40 538m16 538r16 538r36 539m16 539r16 539r37 542m20
+. 547m17 547r17 547r34 548m18 548r18 548r28 548r43 548r59 552m20 558m18 558r18
+. 558r28 558r43 558r59 558r73 558r88 558m109 558r109 561m16 561r16 561r33
+. 564m20 570m7 571m7 572m7 573m7 577m17 577r17 577r27 577r45 580m20 586m7
+. 587m7 588r32 588r77 590r28 590m38 590r38 590m56 590r56 591m7 592r38 595m20
+. 598m7 599r38 604m7 605m7 608m20 613m7 614m7 616m18 616r18 616r28 616m49
+. 616r49 618m20 622m7 623m7 624m7 628m20 633m17 633r17 633r34 634m18 634r18
+. 634r28 634r43 634r59 637m20 642m21 642r21 642r31 642r52 644m16 644r16 644r38
+. 645m16 645r16 645r39 646m18 646r18 646r38 647m18 647r18 647r39 651m7 652m7
+. 653m7 654m7 655m7 656m7
+
+QQ SPARKVERSION SPARK Community 2020 (20200429)
+GG EK_DIRECT_CALLS aeroplane__setfuellevel 1 ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__setfuellevel local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__closedoor 1 ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__closedoor local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__opendoor 1 ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__opendoor local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__lockdoor 1 ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__lockdoor local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__unlockdoor 1 ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__unlockdoor local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__engineoff 1 ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__engineoff local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__engineon 1 ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__engineon local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__setstationary 1 ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__setstationary local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__settowmode 1 ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__settowmode local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__settakeoff 1 ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__settakeoff local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__setnormal 0
+GG EK_GLOBALS aeroplane__setnormal local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__maintainnormalflight 1 ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__maintainnormalflight local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE TRUE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__setlanding 1 ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__setlanding local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__setmanual 0
+GG EK_GLOBALS aeroplane__setmanual local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__flightstatus 1 ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__flightstatus local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__systemcheck 2 aeroplane__flightstatus ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__systemcheck local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane__flightsim 15 aeroplane__setfuellevel aeroplane__closedoor aeroplane__opendoor aeroplane__lockdoor aeroplane__unlockdoor aeroplane__engineoff aeroplane__engineon aeroplane__setstationary aeroplane__settowmode aeroplane__settakeoff aeroplane__setnormal aeroplane__maintainnormalflight aeroplane__setlanding aeroplane__flightstatus ada___ada__text_io__put_line__2
+GG EK_GLOBALS aeroplane__flightsim local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 aeroplane proper_proof_in 0 proper_input 1 ada___ada__text_io__file_system proper_output 1 ada___ada__text_io__file_system refined_proof_in 0 refined_input 1 ada___ada__text_io__file_system refined_output 1 ada___ada__text_io__file_system calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 1 ada___ada__text_io__file_system LOCKS 0
+GG EK_DIRECT_CALLS aeroplane 0
+GG EK_GLOBALS aeroplane local FALSE E_PACKAGE TRUE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 1 aeroplane__plane calls_proof 0 calls 0 calls_conditional 0 local_var 1 aeroplane__plane FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE aeroplane__setmanual FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__fread FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__stderr FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__end_of_line FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io TRUE FALSE FALSE FALSE FALSE ada
+GG EK_FLOW_SCOPE interfaces__rotate_left FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__chdir FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__shift_right_arithmetic__4 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__isatty FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__standard_error FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__parameters TRUE FALSE FALSE FALSE FALSE system
+GG EK_FLOW_SCOPE system TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE ada___ada__text_io__delete FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__setvbuf FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__file_typeDefault_Initial_Condition FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__strlen FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__settowmode FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__current_input FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__mkdir FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__rotate_right FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__fputc FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__setfuellevel FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__lseek FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__rotate_left__4 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__set_col__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__set_page_length__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__current_output FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__get__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__end_of_line__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__wch_con__get_wc_encoding_method FALSE FALSE FALSE FALSE TRUE ada___system__wch_con VISIBLE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__fread__2 FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__file_control_block__afcb_allocate FALSE FALSE FALSE FALSE TRUE ada___system__file_control_block VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__get_immediate__4 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__strncpy FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__reset FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__eof_char FALSE FALSE FALSE FALSE TRUE ada___ada__text_io PRIVATE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__current_error FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__new_page FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__get_line__3 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__wch_con__get_wc_encoding_method__2 FALSE FALSE FALSE FALSE TRUE ada___system__wch_con VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__shift_left__2 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__parameters__default_stack_size FALSE FALSE FALSE FALSE TRUE ada___system__parameters VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__initialize_standard_files FALSE FALSE FALSE FALSE TRUE ada___ada__text_io PRIVATE_PART
+GG EK_FLOW_SCOPE interfaces__rotate_right__4 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__file_control_block__afcb_close FALSE FALSE FALSE FALSE TRUE ada___system__file_control_block VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__setvbuf FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__fputwc FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__parameters__minimum_stack_size FALSE FALSE FALSE FALSE TRUE ada___system__parameters VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__line_length FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__standard_input__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__wch_con__is_start_of_encoding FALSE FALSE FALSE FALSE TRUE ada___system__wch_con VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__put FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__malloc FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__parameters__adjust_storage_size FALSE FALSE FALSE FALSE TRUE ada___system__parameters VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__file_control_block__afcb_free FALSE FALSE FALSE FALSE TRUE ada___system__file_control_block VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__io_exceptions TRUE FALSE FALSE FALSE FALSE ada
+GG EK_FLOW_SCOPE aeroplane__closedoor FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__get_line__4 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__set_line FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__shift_right__2 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__feof FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__standard_output__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__get__3 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__atoi FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__fputs FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__put_line FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__settakeoff FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__standard_error__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__memcpy FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__ferror FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__flightstatus FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__line_length__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE interfaces__shift_right_arithmetic__2 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__new_page__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__reset__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__tmpnam FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__current_input__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__clearerr FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__opendoor FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__page_length FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__current_output__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__free FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__get__4 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__rotate_left__2 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__put__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__tmpfile FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__skip_page FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__file_control_block TRUE FALSE FALSE FALSE FALSE system
+GG EK_FLOW_SCOPE ada___system__crtl__dup FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__current_error__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__memmove FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__file_exists FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__ungetc FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__flush FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__freopen FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__streams TRUE FALSE FALSE FALSE FALSE ada
+GG EK_FLOW_SCOPE interfaces__rotate_right__2 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__page_length__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__lockdoor FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__put_line__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams TRUE FALSE FALSE FALSE FALSE interfaces
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__is_regular_file FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__dup2 FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__create FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__set_line__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__put__3 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__afcb_allocate__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io PRIVATE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__skip_page__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__mode FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__look_ahead FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__new_line FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__streams__stream_element_arraySR FALSE FALSE FALSE FALSE TRUE ada___ada__streams PRIVATE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__set_binary_mode FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__shift_left__3 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE system__Olt FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__unlink FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__mktemp FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__afcb_close__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io PRIVATE_PART
+GG EK_FLOW_SCOPE aeroplane TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE ada___system__crtl__fclose FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__set_text_mode FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__name FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl TRUE FALSE FALSE FALSE FALSE system
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__fileno FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__end_of_page FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__unlockdoor FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__setnormal FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__fseek FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__afcb_free__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io PRIVATE_PART
+GG EK_FLOW_SCOPE interfaces__shift_right__3 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE system__Ole FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__flush__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__open FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__pclose FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__col FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__fdopen FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__read__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io PRIVATE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__look_ahead__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__streams__read FALSE FALSE FALSE FALSE TRUE ada___ada__streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__form FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__wch_con TRUE FALSE FALSE FALSE FALSE system
+GG EK_FLOW_SCOPE ada___ada__text_io__put__4 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE system__Ogt FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__shift_right_arithmetic__3 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__end_of_page__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__set_line_length FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__new_line__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__popen FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__engineoff FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__col__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__close FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__streams__stream_element_arraySW FALSE FALSE FALSE FALSE TRUE ada___ada__streams PRIVATE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__fseek64 FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__open FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__is_open FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__end_of_file FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__fflush FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__maintainnormalflight FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__streams__write FALSE FALSE FALSE FALSE TRUE ada___ada__streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__line FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__systemcheck FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE system__Oge FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__rotate_left__3 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__write__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io PRIVATE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__fwrite FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__get_line FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__read FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__get_immediate FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__set_input FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__realloc FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__skip_line FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__fgetc FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__flightsim FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__shift_left FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE system__Oeq FALSE FALSE FALSE FALSE TRUE system VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__rotate_right__3 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__line__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__engineon FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__ftell FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__end_of_file__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__streams__read_sea FALSE FALSE FALSE FALSE TRUE ada___ada__streams PRIVATE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__set_output FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__set_line_length__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__set_mode FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__fgets FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__page FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__set_col FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__setlanding FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__shift_right FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__write FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__shift_left__4 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__get_immediate__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__rewind FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__ftell64 FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE ada___ada__text_io__set_error FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__streams__write_sea FALSE FALSE FALSE FALSE TRUE ada___ada__streams PRIVATE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__skip_line__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__full_name FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE aeroplane__setstationary FALSE FALSE FALSE FALSE TRUE aeroplane VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__set_page_length FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__page__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__shift_right_arithmetic FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__close FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__rmdir FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__standard_input FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__getenv FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE interfaces__shift_right__4 FALSE FALSE FALSE FALSE TRUE interfaces VISIBLE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__stdin FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__get_line__2 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___system__crtl__fopen FALSE FALSE FALSE FALSE TRUE ada___system__crtl VISIBLE_PART
+GG EK_FLOW_SCOPE ada___interfaces__c_streams__stdout FALSE FALSE FALSE FALSE TRUE ada___interfaces__c_streams VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__get_immediate__3 FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__get FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_FLOW_SCOPE ada___ada__text_io__standard_output FALSE FALSE FALSE FALSE TRUE ada___ada__text_io VISIBLE_PART
+GG EK_REMOTE_STATES 1 ada___ada__text_io__file_system
+GG EK_PREDEF_INIT_ENTITIES 1 ada___ada__text_io__file_system
+GG EK_END_MARKER

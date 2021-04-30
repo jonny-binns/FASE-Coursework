@@ -54,6 +54,19 @@ Package body Aeroplane with SPARK_Mode is
       Put_Line("Engine is now "& e'Image);
    end EngineOn;
 
+   --turn off engine
+   procedure LGearDown (g: out LandingGearPos; f : in FlightStage) is
+   begin
+      g := down;
+      Put_Line("Landing gear is now "& g'Image);
+   end LGearDown;
+
+   --turn on engine
+   procedure LGearUp (g: out LandingGearPos; f : in FlightStage) is
+   begin
+      g := up;
+      Put_Line("Landing gear is now "& g'Image);
+   end LGearUp;
 
 
    --set stationary mode
@@ -81,7 +94,7 @@ Package body Aeroplane with SPARK_Mode is
    end SetTakeOff;
 
    --set normal mode
-   procedure SetNormal (fmode : out FlightStage; as : in AirSpeedRange; al : in AltitudeRange) is
+   procedure SetNormal (fmode : in out FlightStage; as : in AirSpeedRange; al : in AltitudeRange) is
    begin
       fmode := normal;
    end SetNormal;
@@ -115,7 +128,7 @@ Package body Aeroplane with SPARK_Mode is
    end MaintainNormalFlight;
 
    --landing
-   procedure SetLanding(fmode : out FlightStage; al : in AltitudeRange; lg : in out LandingGearPos) is
+   procedure SetLanding(fmode : in out FlightStage; al : in AltitudeRange; lg : in out LandingGearPos) is
    begin
    fmode := landing;
       if al <= 10000 then
@@ -123,6 +136,13 @@ Package body Aeroplane with SPARK_Mode is
       end if;
      Put_Line("Plane is in " & fmode'Image &" mode, the altitude is: " & al'Image &" ft, the landing gear is " & lg'Image);
    end SetLanding;
+
+   --manual
+   procedure SetManual(fmode : out FlightStage; d1light : in WarningLight; d2light : in WarningLight; flight : in WarningLight; allight : in WarningLight; aslight : in WarningLight; lglight : in WarningLight; elight : in WarningLight) is
+   begin
+      fmode := manual;
+   end SetManual;
+
 
    --flight status
    procedure FlightStatus (p : in out PlaneRec) is
@@ -217,6 +237,20 @@ Package body Aeroplane with SPARK_Mode is
       --if status not tow and engine off flash
       if (p.Flight = takeOff or p.Flight = normal or p.Flight = landing) and p.Engine.Status = off then
          p.Engine.Light := FLASHING;
+      else
+         p.Engine.Light := off;
+      end if;
+
+
+      --if manual mode then turn lights off
+      if p.Flight = manual then
+         p.CockpitDoor.Light := off;
+         p.ExternalDoor.Light := off;
+         p.Fuel.Light := off;
+         p.Altitude.Light := off;
+         p.AirSpeed.Light := off;
+         p.LandingGear.Light := off;
+         p.Engine.Light := off;
       end if;
 
 
@@ -501,6 +535,8 @@ Package body Aeroplane with SPARK_Mode is
 
    procedure FlightSim ( p : in out PlaneRec) is
    begin
+
+
       Put_Line("-----------------Starting Flight Simulation-----------------");
 
       --set amount of fuel needed
@@ -536,6 +572,7 @@ Package body Aeroplane with SPARK_Mode is
       --take off
       Put_Line("Prepare for take off");
       --set takeOff
+      p.Altitude.Altitude := 0;
       SetTakeOff(p.Flight, p.CockpitDoor, p.ExternalDoor, p.Fuel.Level, p.MinimumFuel, p.Altitude.Altitude, p.LandingGear.Position);
 
       --turn engine on
@@ -630,10 +667,6 @@ Package body Aeroplane with SPARK_Mode is
       Put_Line("-----------------Flight Simulation finished variables will be returned to default-----------------");
       --return to default
       p.Flight := stationary;
-      p.CockpitDoor.Status := open;
-      p.CockpitDoor.Lock := unlocked;
-      p.ExternalDoor.Status := open;
-      p.ExternalDoor.Lock := unlocked;
       p.Fuel.Level := 50;
       p.Altitude.Altitude := 0;
       p.AirSpeed.Speed := 0;

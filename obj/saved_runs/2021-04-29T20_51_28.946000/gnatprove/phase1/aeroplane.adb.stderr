@@ -1,0 +1,2 @@
+aeroplane.ads:185:34: prefix of "First" attribute must be a type
+aeroplane.ads:185:87: prefix of "Last" attribute must be a type
