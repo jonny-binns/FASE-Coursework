@@ -231,15 +231,15 @@ Package body Aeroplane with SPARK_Mode is
          p.Engine.Light := FLASHING;
       elsif p.Flight = tow and p.Engine.Status = off then
          p.Engine.Light := off;
-      end if;
+     end if;
 
 
       --if status not tow and engine off flash
-      if (p.Flight = takeOff or p.Flight = normal or p.Flight = landing) and p.Engine.Status = off then
-         p.Engine.Light := FLASHING;
-      else
-         p.Engine.Light := off;
-      end if;
+      --if (p.Flight = takeOff or p.Flight = normal or p.Flight = landing) and p.Engine.Status = off then
+        -- p.Engine.Light := FLASHING;
+      --else
+        -- p.Engine.Light := off;
+      --end if;
 
 
       --if manual mode then turn lights off

@@ -1,0 +1,4 @@
+aeroplane.adb:230:07: warning: statement has no effect[#0]
+aeroplane.adb:231:25: warning: unused assignment[#1]
+aeroplane.adb:232:07: warning: statement has no effect[#2]
+aeroplane.adb:233:25: warning: unused assignment[#3]

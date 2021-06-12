@@ -1,22 +1,18 @@
-'2021-04-30T09:46:54.519000':
+'2021-05-01T11:43:44.568000':
   category: GNATprove
   files:
   - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
   label: Basic Prove File
   output: 'Phase 1 of 2: generation of Global contracts ...
 
-    Phase 2 of 2: flow analysis and proof ...
-
-    main.adb:5:11: warning: SPARK_Mode not applied to this compilation unit
-
-    main.adb:5:11: warning: only enclosed declarations with SPARK_Mode will be analyzed
+    Phase 2 of 2: analysis of data and information flow ...
 
     Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
 
     '
   output_parser: GNATprove_Parser
-  timestamp: '2021-04-30T09:46:54.519000'
-'2021-04-30T09:47:10.474000':
+  timestamp: '2021-05-01T11:43:44.568000'
+'2021-05-01T11:44:11.918000':
   category: GNATprove
   files:
   - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
@@ -25,59 +21,14 @@
 
     Phase 2 of 2: flow analysis and proof ...
 
-    aeroplane.adb:257:106: low: range check might fail [possible explanation: subprogram
-    at aeroplane.ads:178 should mention p in a precondition][#0]
-
-    aeroplane.adb:257:134: low: range check might fail [possible explanation: subprogram
-    at aeroplane.ads:178 should mention p in a precondition][#1]
-
-    aeroplane.ads:187:10: medium: postcondition might fail, cannot prove p.Engine.Status''Old
-    = p.Engine.Status (e.g. when p = (CockpitDoor => (Status => open, Lock => unlocked,
-    Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off),
-    Flight => stationary, Fuel => (Level => 0, Light => off), MinimumFuel => 0, Altitude
-    => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear
-    => (Position => down, Light => off), Engine => (Status => -1, Light => off)) and
-    p''Old = (CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor
-    => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel
-    => (Level => 0, Light => off), MinimumFuel => 0, Altitude => (Altitude => 0, Light
-    => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down,
-    Light => off), Engine => (Status => -1, Light => off)))[#2]
-
-    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
-
-    '
-  output_parser: GNATprove_Parser
-  timestamp: '2021-04-30T09:47:10.474000'
-'2021-04-30T10:12:05.213000':
-  category: GNATprove
-  files:
-  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
-  label: Basic Prove File
-  output: 'Phase 1 of 2: generation of Global contracts ...
-
-    aeroplane.adb:67:14: missing ";"
-
-    aeroplane.ads:122:14: "e" is undefined
-
-    gnatprove: error during generation of Global contracts
-
-    '
-  output_parser: GNATprove_Parser
-  timestamp: '2021-04-30T10:12:05.213000'
-'2021-04-30T10:12:27.551000':
-  category: GNATprove
-  files:
-  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
-  label: Basic Prove File
-  output: 'Phase 1 of 2: generation of Global contracts ...
-
-    Phase 2 of 2: flow analysis and proof ...
-
-    aeroplane.adb:270:106: low: range check might fail [possible explanation: subprogram
+    aeroplane.adb:272:37: low: range check might fail [possible explanation: subprogram
     at aeroplane.ads:187 should mention p in a precondition][#0]
 
-    aeroplane.adb:270:134: low: range check might fail [possible explanation: subprogram
+    aeroplane.adb:290:91: low: range check might fail [possible explanation: subprogram
     at aeroplane.ads:187 should mention p in a precondition][#1]
+
+    aeroplane.adb:302:82: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#2]
 
     aeroplane.ads:196:10: medium: postcondition might fail, cannot prove p.Engine.Status''Old
     = p.Engine.Status (e.g. when p = (CockpitDoor => (Status => open, Lock => unlocked,
@@ -89,10 +40,276 @@
     => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel
     => (Level => 0, Light => off), MinimumFuel => 0, Altitude => (Altitude => 0, Light
     => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down,
-    Light => off), Engine => (Status => -1, Light => off)))[#2]
+    Light => off), Engine => (Status => -1, Light => off)))[#3]
 
     Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
 
     '
   output_parser: GNATprove_Parser
-  timestamp: '2021-04-30T10:12:27.551000'
+  timestamp: '2021-05-01T11:44:11.918000'
+'2021-05-01T11:55:15.243000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.adb:272:37: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#0]
+
+    aeroplane.adb:290:91: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#1]
+
+    aeroplane.adb:302:82: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#2]
+
+    aeroplane.ads:196:10: medium: postcondition might fail, cannot prove p.Engine.Status''Old
+    = p.Engine.Status (e.g. when p = (CockpitDoor => (Status => open, Lock => unlocked,
+    Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off),
+    Flight => stationary, Fuel => (Level => 0, Light => off), MinimumFuel => 0, Altitude
+    => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear
+    => (Position => down, Light => off), Engine => (Status => -1, Light => off)) and
+    p''Old = (CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor
+    => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel
+    => (Level => 0, Light => off), MinimumFuel => 0, Altitude => (Altitude => 0, Light
+    => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down,
+    Light => off), Engine => (Status => -1, Light => off)))[#3]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-01T11:55:15.243000'
+'2021-05-01T11:59:02.232000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.adb:272:37: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#0]
+
+    aeroplane.adb:290:91: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#1]
+
+    aeroplane.adb:302:82: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#2]
+
+    aeroplane.ads:196:10: medium: postcondition might fail, cannot prove p.Engine.Status''Old
+    = p.Engine.Status (e.g. when p = (CockpitDoor => (Status => open, Lock => unlocked,
+    Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off),
+    Flight => stationary, Fuel => (Level => 0, Light => off), MinimumFuel => 0, Altitude
+    => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear
+    => (Position => down, Light => off), Engine => (Status => -1, Light => off)) and
+    p''Old = (CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor
+    => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel
+    => (Level => 0, Light => off), MinimumFuel => 0, Altitude => (Altitude => 0, Light
+    => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down,
+    Light => off), Engine => (Status => -1, Light => off)))[#3]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-01T11:59:02.232000'
+'2021-05-01T12:02:20.821000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-01T12:02:20.821000'
+'2021-05-01T12:02:44.187000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.adb:272:37: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#0]
+
+    aeroplane.adb:290:91: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#1]
+
+    aeroplane.adb:302:82: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#2]
+
+    aeroplane.ads:196:10: medium: postcondition might fail, cannot prove p.Engine.Status''Old
+    = p.Engine.Status (e.g. when p = (CockpitDoor => (Status => open, Lock => unlocked,
+    Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off),
+    Flight => stationary, Fuel => (Level => 0, Light => off), MinimumFuel => 0, Altitude
+    => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear
+    => (Position => down, Light => off), Engine => (Status => -1, Light => off)) and
+    p''Old = (CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor
+    => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel
+    => (Level => 0, Light => off), MinimumFuel => 0, Altitude => (Altitude => 0, Light
+    => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down,
+    Light => off), Engine => (Status => -1, Light => off)))[#3]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-01T12:02:44.187000'
+'2021-05-01T12:06:11.410000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-01T12:06:11.410000'
+'2021-05-01T12:06:35.317000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.adb:272:37: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#0]
+
+    aeroplane.adb:290:91: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#1]
+
+    aeroplane.adb:302:82: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#2]
+
+    aeroplane.ads:196:10: medium: postcondition might fail, cannot prove p.Engine.Status''Old
+    = p.Engine.Status (e.g. when p = (CockpitDoor => (Status => open, Lock => unlocked,
+    Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off),
+    Flight => stationary, Fuel => (Level => 0, Light => off), MinimumFuel => 0, Altitude
+    => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear
+    => (Position => down, Light => off), Engine => (Status => -1, Light => off)) and
+    p''Old = (CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor
+    => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel
+    => (Level => 0, Light => off), MinimumFuel => 0, Altitude => (Altitude => 0, Light
+    => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down,
+    Light => off), Engine => (Status => -1, Light => off)))[#3]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-01T12:06:35.317000'
+'2021-05-01T12:16:44.574000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-01T12:16:44.574000'
+'2021-05-01T12:17:05.642000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.adb:272:37: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#0]
+
+    aeroplane.adb:290:91: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#1]
+
+    aeroplane.adb:302:82: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#2]
+
+    aeroplane.ads:196:10: medium: postcondition might fail, cannot prove p.Engine.Status''Old
+    = p.Engine.Status (e.g. when p = (CockpitDoor => (Status => open, Lock => unlocked,
+    Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off),
+    Flight => stationary, Fuel => (Level => 0, Light => off), MinimumFuel => 0, Altitude
+    => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear
+    => (Position => down, Light => off), Engine => (Status => -1, Light => off)) and
+    p''Old = (CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor
+    => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel
+    => (Level => 0, Light => off), MinimumFuel => 0, Altitude => (Altitude => 0, Light
+    => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down,
+    Light => off), Engine => (Status => -1, Light => off)))[#3]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-01T12:17:05.642000'
+'2021-05-01T12:21:55.426000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: analysis of data and information flow ...
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-01T12:21:55.426000'
+'2021-05-01T12:22:18.894000':
+  category: GNATprove
+  files:
+  - C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove
+  label: Basic Prove File
+  output: 'Phase 1 of 2: generation of Global contracts ...
+
+    Phase 2 of 2: flow analysis and proof ...
+
+    aeroplane.adb:272:37: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#0]
+
+    aeroplane.adb:290:91: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#1]
+
+    aeroplane.adb:302:82: low: range check might fail [possible explanation: subprogram
+    at aeroplane.ads:187 should mention p in a precondition][#2]
+
+    aeroplane.ads:196:10: medium: postcondition might fail, cannot prove p.Engine.Status''Old
+    = p.Engine.Status (e.g. when p = (CockpitDoor => (Status => open, Lock => unlocked,
+    Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off),
+    Flight => stationary, Fuel => (Level => 0, Light => off), MinimumFuel => 0, Altitude
+    => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear
+    => (Position => down, Light => off), Engine => (Status => -1, Light => off)) and
+    p''Old = (CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor
+    => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel
+    => (Level => 0, Light => off), MinimumFuel => 0, Altitude => (Altitude => 0, Light
+    => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down,
+    Light => off), Engine => (Status => -1, Light => off)))[#3]
+
+    Summary logged in C:\Users\Jonny\Documents\GitHub\FASE-Coursework\obj\gnatprove\gnatprove.out
+
+    '
+  output_parser: GNATprove_Parser
+  timestamp: '2021-05-01T12:22:18.894000'

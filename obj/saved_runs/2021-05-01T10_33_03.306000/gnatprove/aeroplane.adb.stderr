@@ -1,0 +1,7 @@
+aeroplane.adb:230:07: warning: statement has no effect[#0]
+aeroplane.adb:231:25: warning: unused assignment[#1]
+aeroplane.adb:232:07: warning: statement has no effect[#2]
+aeroplane.adb:233:25: warning: unused assignment[#3]
+aeroplane.adb:290:91: low: range check might fail [possible explanation: subprogram at aeroplane.ads:187 should mention p in a precondition][#4]
+aeroplane.adb:302:82: low: range check might fail [possible explanation: subprogram at aeroplane.ads:187 should mention p in a precondition][#5]
+aeroplane.ads:196:10: medium: postcondition might fail, cannot prove p.Engine.Status'Old = p.Engine.Status (e.g. when p = (CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel => (Level => 0, Light => off), MinimumFuel => 0, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => -1, Light => off)) and p'Old = (CockpitDoor => (Status => open, Lock => unlocked, Light => off), ExternalDoor => (Status => open, Lock => unlocked, Light => off), Flight => stationary, Fuel => (Level => 0, Light => off), MinimumFuel => 0, Altitude => (Altitude => 0, Light => off), AirSpeed => (Speed => 0, Light => off), LandingGear => (Position => down, Light => off), Engine => (Status => -1, Light => off)))[#6]
